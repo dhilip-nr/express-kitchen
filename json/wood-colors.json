@@ -1,0 +1,223 @@
+[
+	{
+		"name": "Stain Colors",
+		"items": [
+			{
+				"group": "Maple",
+				"items": [
+					{
+						"name": "Arctic Whale",
+						"url": "images/models/textures/stain/maple/arctic_whale.jpg"
+					},
+					{
+						"name": "Butterscotch",
+						"url": "images/models/textures/stain/maple/butterscotch.jpg"
+					},
+					{
+						"name": "Cafe",
+						"url": "images/models/textures/stain/maple/cafe.jpg"
+					},
+					{
+						"name": "Cider",
+						"url": "images/models/textures/stain/maple/cider.jpg"
+					},
+					{
+						"name": "Clear Lacquer",
+						"url": "images/models/textures/stain/maple/clear_lacquer.jpg"
+					},
+					{
+						"name": "Coffee Bean",
+						"url": "images/models/textures/stain/maple/coffee_bean.jpg"
+					},
+					{
+						"name": "Coffee House",
+						"url": "images/models/textures/stain/maple/coffeehouse.jpg"
+					},
+					{
+						"name": "Dark Honey",
+						"url": "images/models/textures/stain/maple/dark_honey.jpg"
+					},
+					{
+						"name": "Drift Wood",
+						"url": "images/models/textures/stain/maple/driftwood.jpg"
+					},
+					{
+						"name": "Medford",
+						"url": "images/models/textures/stain/maple/medford.jpg"
+					},
+					{
+						"name": "Smoky Mirror",
+						"url": "images/models/textures/stain/maple/smoky_mirror.jpg"
+					},
+					{
+						"name": "Tell Tale Walnut",
+						"url": "images/models/textures/stain/maple/tell_tale_walnut.jpg"
+					}
+				]
+			},
+			{
+				"group": "Cherry",
+				"items": [
+					{
+						"name": "Arctic Whale",
+						"url": "images/models/textures/stain/cherry/ArcticWhale.jpg"
+					},
+					{
+						"name": "Cafe",
+						"url": "images/models/textures/stain/cherry/Cafe.jpg"
+					},
+					{
+						"name": "Cardovan",
+						"url": "images/models/textures/stain/cherry/Cardovan.jpg"
+					},
+					{
+						"name": "Cider",
+						"url": "images/models/textures/stain/cherry/Cider.jpg"
+					},
+					{
+						"name": "Clear Lacquer",
+						"url": "images/models/textures/stain/cherry/ClearLacquer.jpg"
+					},
+					{
+						"name": "Coffee Bean",
+						"url": "images/models/textures/stain/cherry/CoffeeBean.jpg"
+					},
+					{
+						"name": "Cinnamon",
+						"url": "images/models/textures/stain/cherry/Cinnamon.jpg"
+					},
+					{
+						"name": "Dark Honey",
+						"url": "images/models/textures/stain/cherry/DarkHoney.jpg"
+					},
+					{
+						"name": "Honey",
+						"url": "images/models/textures/stain/cherry/Honey.jpg"
+					},
+					{
+						"name": "Shadow Wall",
+						"url": "images/models/textures/stain/cherry/ShadowWall.jpg"
+					},
+					{
+						"name": "Smoky Mirror",
+						"url": "images/models/textures/stain/cherry/SmokyMirror.jpg"
+					}
+				]
+			},
+			{
+				"group": "Red Oak",
+				"items": [
+					{
+						"name": "Arctic Whale",
+						"url": "images/models/textures/stain/redoak/Arctic_Whale.jpg"
+					},
+					{
+						"name": "Amber",
+						"url": "images/models/textures/stain/redoak/Amber.jpg"
+					},
+					{
+						"name": "Champagne",
+						"url": "images/models/textures/stain/redoak/Champagne.jpg"
+					},
+					{
+						"name": "Clear Lacquer",
+						"url": "images/models/textures/stain/redoak/ClearLacquer.jpg"
+					},
+					{
+						"name": "Coffee Bean",
+						"url": "images/models/textures/stain/redoak/CoffeeBean.jpg"
+					},
+					{
+						"name": "Cinnamon",
+						"url": "images/models/textures/stain/redoak/Cinnamon.jpg"
+					},
+					{
+						"name": "Dark Honey",
+						"url": "images/models/textures/stain/redoak/DarkHoney.jpg"
+					},
+					{
+						"name": "Dark Mahogany",
+						"url": "images/models/textures/stain/redoak/DarkMahogany.jpg"
+					},
+					{
+						"name": "Honey",
+						"url": "images/models/textures/stain/redoak/Honey.jpg"
+					},
+					{
+						"name": "Harvest",
+						"url": "images/models/textures/stain/redoak/Harvest.jpg"
+					},
+					{
+						"name": "Smoky Mirror",
+						"url": "images/models/textures/stain/redoak/SmokyMirror.jpg"
+					},
+					{
+						"name": "Tell Tale Walnut",
+						"url": "images/models/textures/stain/redoak/TellTaleWalnut.jpg"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Paint Colors",
+		"items": [
+			{
+				"name": "Black",
+				"url": "images/models/textures/paint/Black.jpg"
+			},
+			{
+				"name": "Charcoal",
+				"url": "images/models/textures/paint/Charcoal.jpg"
+			},
+			{
+				"name": "Cinder Grey",
+				"url": "images/models/textures/paint/CinderGrey.jpg"
+			},
+			{
+				"name": "Featherdown",
+				"url": "images/models/textures/paint/Featherdown.jpg"
+			},
+			{
+				"name": "Floral White",
+				"url": "images/models/textures/paint/FloralWhite.jpg"
+			},
+			{
+				"name": "Folkstone Grey",
+				"url": "images/models/textures/paint/FolkstoneGrey.jpg"
+			},
+			{
+				"name": "Indigo Ink",
+				"url": "images/models/textures/paint/IndigoInk.jpg"
+			},
+			{
+				"name": "Linen White",
+				"url": "images/models/textures/paint/LinenWhite.jpg"
+			},
+			{
+				"name": "Morning Dew",
+				"url": "images/models/textures/paint/MorningDew.jpg"
+			},
+			{
+				"name": "Sandstone",
+				"url": "images/models/textures/paint/Sandstone.jpg"
+			},
+			{
+				"name": "Satin White",
+				"url": "images/models/textures/paint/SatinWhite.jpg"
+			},
+			{
+				"name": "Stone Grey",
+				"url": "images/models/textures/paint/StoneGrey.jpg"
+			},
+			{
+				"name": "Vanilla Ice Cream",
+				"url": "images/models/textures/paint/VanillaIceCream.jpg"
+			},
+			{
+				"name": "Wild Mushroom",
+				"url": "images/models/textures/paint/WildMushroom.jpg"
+			}
+		]
+	}
+]

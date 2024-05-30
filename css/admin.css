@@ -1,0 +1,191 @@
+html {
+	overflow: hidden;
+	height: 100%;
+	font-family: Arial;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+	height: 100%;
+}
+
+div {
+	margin: 0;
+	padding: 0;
+}
+
+ul.tabs {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+ul.tabs li {
+	background: none;
+	color: #222;
+	display: inline-block;
+	cursor: pointer;
+}
+
+ul.tabs li.current {
+	background: #ededed;
+	color: #222;
+}
+
+ul.tabs li a {
+	color: #222;
+	text-decoration: none;
+	padding: 15px 40px;
+	display: inline-block;
+}
+
+.tab-content {
+	display: none;
+	background: #ededed;
+	padding: 15px;
+}
+
+.tab-content.current {
+	display: inherit;
+}
+
+.container {
+	width: 80%;
+	margin: 50px auto;
+}
+
+.container table {
+	width: 100%;
+}
+.container table td {
+	padding: 5px;
+}
+
+#content {
+	padding: 20px;
+	background: #eee;
+}
+/*
+.title {
+	background: #666 !important;
+	color: #fff;
+}
+*/
+.title td {
+	padding: 10px 5px !important;
+}
+
+.right {
+	text-align: right;
+}
+
+div#set-margin {
+	/* padding: 5px; */
+	margin: 30px 0px;
+}
+
+div#set-margin label {
+	/* height: 58px; */
+	background: #ccc;
+	padding: 10px 39px;
+}
+
+#set-margin input {
+	border-radius: 3px;
+	text-align: center;
+	margin: 0 15px;
+	width: 19px;
+	padding: 9px 15px;
+	border: 1px solid #ccc;
+}
+
+button.setmargin {
+	border-radius: 3px;
+	cursor: pointer;
+	color: #ffffff;
+	background: #f88421;
+	border: 1px solid #f88421;
+	width: 70px;
+	padding: 8px;
+}
+
+
+
+.ui-jqgrid-htable .ui-jqgrid-labels .ui-th-column {
+	padding: 15px 0 !important;
+}
+
+.ui-jqgrid-htable .ui-search-input input{
+	border:#ccc solid 1px;
+}
+
+
+.nav-profile-image{
+	width: 100px !important;
+	height: 100px !important;
+}
+.nav-profile-image img{
+	width: 100px !important;
+	height: 100px !important;
+}
+
+.sidebar .nav .nav-item.active {
+	background: #666 !important;
+}
+.sidebar .nav .nav-item.active .nav-link .menu-icon, .sidebar .nav .nav-item.active .nav-link .menu-title {
+	color: #ffffff;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 600;
+}
+
+.content-wrapper {
+	padding: 0;
+}
+
+.change-workspace {
+	padding: 10px 0 30px !important;
+	text-align: center;
+}
+
+#set-margin input {
+	width: 80px !important;
+}
+
+.view label {
+	background: #fff !important;
+}
+button.editmargin {
+	border-radius: 3px;
+	cursor: pointer;
+	color: #ffffff;
+	background: #f88421;
+	border: 1px solid #f88421;
+	width: 70px;
+	padding: 8px;
+}
+
+#set-margin .view label, #set-margin .view input {
+	background: #eee !important;
+	border: #ccc solid 1px;
+	cursor: default;
+}
+
+#set-margin .save button.cancel {
+	border: #f88421 solid 1px !important;
+	background: none !important;
+	color: #f88421 !important;
+}
+
+#set-margin .hidden {
+	display: none !important;
+}
+
+a.change-workspace{  
+	padding: 10px !important;
+	margin: 5px 0 20px;
+	border: #ccc solid 1px;
+	color: #ccc;
+	border-radius: 20px;
+	background: #f4f4f4;
+}

@@ -1,0 +1,33 @@
+#home{
+	margin:8% auto;
+	display:block;
+	width:550px;
+	height:auto;
+	text-align:center;
+	padding:40px;
+
+}
+
+.dashboard_link{
+	font-weight:bold;
+	text-decoration:underline;
+	text-transform:uppercase;
+}
+
+
+#orders_menu li a{
+    border: 1px solid #F88421;
+    border-radius: 80px;
+    color: #fff;
+    padding: 115px 50px 20px;
+	font-size:14px;
+	width:100px;
+	text-align:center;
+}
+
+#orders_menu li.dashboard a{
+	background:#F88421 url(../../images/dashboard-white.png) no-repeat center 23px;
+}
+#orders_menu li.orders a{
+	background:#F88421 url(../../images/order-white.png) no-repeat center 23px;
+}

@@ -1,0 +1,25 @@
+.edit_misc, .edit_btn, .apply_btn, .cancel_btn{
+	border: 0;
+	text-indent: 100px;
+	overflow: hidden;
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+	margin:-5px 0 0 15px;
+}
+.edit_misc, .edit_btn{
+	background: url(../../images/actions/edit.png) no-repeat center top;
+	position:absolute;
+}
+.edit_misc:hover, .edit_btn:hover{
+	background: url(../../images/actions/edit.png) no-repeat center -25px;
+}
+.apply_btn{
+	background: url(../../images/actions/apply_act.png) no-repeat center top;
+}
+.apply_btn:hover{
+	background: url(../../images/actions/apply_act.png) no-repeat center -25px;
+}
+.cancel_btn{
+	background: url(../../images/actions/remove-inactive.png) no-repeat center top;
+}

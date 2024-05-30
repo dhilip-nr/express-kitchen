@@ -1,0 +1,69 @@
+[
+	{
+		"name": "Laminate Colors",
+		"items": [
+			{
+				"name": "Antique White",
+				"url": "images/models/textures/laminate/AntiqueWhite.jpg"
+			},
+			{
+				"name": "Chocolate",
+				"url": "images/models/textures/laminate/Chocolate.jpg"
+			},
+			{
+				"name": "Concrete Grey",
+				"url": "images/models/textures/laminate/ConcreteGrey.jpg"
+			},
+			{
+				"name": "Dark Italian Walnut",
+				"url": "images/models/textures/laminate/DarkItalianWalnut.jpg"
+			},
+			{
+				"name": "Feather White",
+				"url": "images/models/textures/laminate/FeatherWhite.jpg"
+			},
+			{
+				"name": "Light Italian Walnut",
+				"url": "images/models/textures/laminate/LightItalianWalnut.jpg"
+			},
+			{
+				"name": "Moonlight",
+				"url": "images/models/textures/laminate/Moonlight.jpg"
+			},
+			{
+				"name": "Pearwood",
+				"url": "images/models/textures/laminate/Pearwood.jpg"
+			},
+			{
+				"name": "Rain Cloud",
+				"url": "images/models/textures/laminate/RainCloud.jpg"
+			},
+			{
+				"name": "Stone Grey",
+				"url": "images/models/textures/laminate/StoneGrey.jpg"
+			},
+			{
+				"name": "White",
+				"url": "images/models/textures/laminate/White.jpg"
+			}
+		]
+	},
+	{
+		"name": "Stain Colors",
+		"items": [
+			{
+				"name": "Butterscotch",
+				"url": "images/models/textures/stain/maple/butterscotch.jpg"
+			}
+		]
+	},
+	{
+		"name": "Paint Colors",
+		"items": [
+			{
+				"name": "Charcoal",
+				"url": "images/models/textures/paint/Charcoal.jpg"
+			}
+		]
+	}
+]

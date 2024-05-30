@@ -1,0 +1,128 @@
+/* (A) WRAPPER */
+#numPadWrap, #numPadWrap * { box-sizing: border-box; }
+#numPadWrap {
+  /* (A1) FULL SCREEN COVER */
+  position: fixed;
+  top: 0; left: 0; z-index: 999;
+  width: 100vw; height: 100vh;
+
+  /* (A2) HIDE BY DEFAULT */
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s;
+
+  /* (A3) CENTER ON SCREEN + BACKGROUND COLOR */
+  display: flex;
+  align-items: center; justify-content: center;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+/* (A3) SHOW NUMPAD */
+#numPadWrap.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* (B) NUMPAD */
+#numPad {
+	max-width: 300px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+/* (C) DISPLAY */
+#numDisplay {
+	width: 280px;
+	height: 60px;
+    border: 0;
+    padding: 5px;
+    margin-bottom: 10px;
+    color: #000;
+    font-size: 42px;
+    text-align: center;
+}
+#numDisplay:focus { outline: none; }
+#numDisplay::selection { background: none; }
+
+#numDisplay > span {
+	width: 46%;
+    height: 45px;
+    display: inline-block;
+    border-bottom: #ccc solid 1px;
+    margin: 0 2%;
+    overflow: hidden;
+}
+
+#numSwitch {
+	height: 40px;
+	margin-bottom: 15px;
+}
+#numSwitch button{
+	border: #666 solid 1px;
+    cursor: pointer;
+}
+#numSwitch button.active{
+	background: #666;
+	color: #fff;
+}
+/* (D) BUTTONS WRAPPER */
+#numWrap > div, #numSwitch {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+#actWrap {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 40px;
+}
+#actWrap div{
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  cursor: pointer;
+}
+/* (E) BUTTONS */
+#numWrap > div > div {
+/*
+  font-size: 24px;
+*/
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+#numWrap div div:hover { cursor: pointer; }
+#numWrap div .num, #numWrap div .zero, #numWrap div .dot {
+/*
+	background: #565656; 
+*/
+	background: #fff;
+    border: #aaa solid 1px;
+    color: #666;
+    font-size: 16px;
+}
+#numWrap div .empty { border-color: #ddd;}
+#numWrap div .zero { grid-column: span 2; }
+#numWrap div .del, #numWrap div .clr {
+	background: #ccc;
+    color: #333;
+}
+#actWrap .cx { background: #300; }
+#actWrap .ok { background: #030; }
+
+/* (F) NO DECIMAL POINTS ALLOWED */
+#numWrap div.noDec .dot { display: none; }
+#numWrap div.noDec .zero { grid-column: span 3; }
+
+#numWrap > div.hide { display: none !important;}
+#numWrap > div.show { display: grid !important;}
+
+#item-width,#item-height,#item-depth{
+	cursor: pointer;
+    background: #f9f9f9;
+    padding: 12px;
+    margin: 0;
+    border: 0;
+}

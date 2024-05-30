@@ -1,0 +1,58 @@
+{
+    "items": [
+      {
+        "name": "None",
+        "url": "images/models/textures/transparent.png"
+      },
+      {
+        "name": "Arctic Whale",
+        "url": "images/models/textures/arctic_whale.jpg"
+      },
+      {
+        "name": "Butterscotch",
+        "url": "images/models/textures/butterscotch.jpg"
+      },
+      {
+        "name": "Cafe",
+        "url": "images/models/textures/cafe.jpg"
+      },
+      {
+        "name": "Cider",
+        "url": "images/models/textures/cider.jpg"
+      },
+      {
+        "name": "Clear Lacquer",
+        "url": "images/models/textures/clear_lacquer.jpg"
+      },
+      {
+        "name": "Coffee Bean",
+        "url": "images/models/textures/coffee_bean.jpg"
+      },
+      {
+        "name": "Coffee House",
+        "url": "images/models/textures/coffeehouse.jpg"
+      },
+      {
+        "name": "Dark Honey",
+        "url": "images/models/textures/dark_honey.jpg"
+      },
+      {
+        "name": "Drift Wood",
+        "url": "images/models/textures/driftwood.jpg"
+      },
+      {
+        "name": "Medford",
+        "url": "images/models/textures/medford.jpg"
+      },
+      {
+        "name": "Smoky Mirror",
+        "url": "images/models/textures/smoky_mirror.jpg"
+      },
+      {
+        "name": "Tell Tale Walnut",
+        "url": "images/models/textures/tell_tale_walnut.jpg"
+      }
+      
+    ]
+  }
+  

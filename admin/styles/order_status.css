@@ -1,0 +1,98 @@
+
+ul#status_menu{
+	display:block;
+	margin:50px auto 30px;
+	text-align:center;
+}
+ul#status_menu li{
+	background:url(../../images/order_status/base-order-status.png) no-repeat center -338px;
+	display:inline-block;
+	width:10%;
+	height:152px;
+	min-width:150px;
+	line-height:25px;
+	text-align:center;
+	margin:0 10px;
+	color:#777;
+	overflow:hidden;
+}
+ul#status_menu li b{
+	color:#fff;
+	width:100%;
+	margin:25px 0 10px;
+	display:block;
+}
+
+ul#status_menu li.base_st_current{
+	background:url(../../images/order_status/base-order-status.png) no-repeat center 0px;
+}
+ul#status_menu li.base_st_passed{
+	background:url(../../images/order_status/base-order-status.png) no-repeat center -169px;
+}
+
+.link_cursor{
+	cursor:pointer;
+}
+
+div.active_base_status{
+	background: url(../../images/order_status/highlight-order-status.png) no-repeat center -421px;
+	position:relative;
+	width:100%;
+	height:70px;
+	float:left;
+	top:-3px;
+	display:none;
+	border:0;
+}
+li.base_st_current div.active_base_status{
+	background: url(../../images/order_status/highlight-order-status.png) no-repeat center -83px;
+}
+li.base_st_passed div.active_base_status{
+	background: url(../../images/order_status/highlight-order-status.png) no-repeat center -252px;
+}
+
+
+.mo_st_passed{
+	background:url(../../images/order_status/mi-order-status.png) no-repeat center -60px;
+	color:#fff;
+}
+.mo_st_current{
+	background:url(../../images/order_status/mi-order-status.png) no-repeat center -6px;
+	color:#fff;
+	font-weight:bold;
+}
+.mo_no-st{
+	background:url(../../images/order_status/mi-order-status.png) no-repeat center -114px;
+}
+
+.shipment_details, .update_matreceived, .delivery_details, .problem_report {
+	cursor:pointer;
+}
+.scheduled_info{
+	width:25px;
+	height:25px;
+	display:block;
+	background:url(../../images/actions/info.png) no-repeat center 0px;
+}
+.scheduled_info.active{
+	background:url(../../images/actions/info.png) no-repeat center -25px;
+	cursor:pointer;
+}
+
+.io_st_passed, .io_st_current, .io_no-st{
+	background:url(../../images/order_status/mi-order-status.png) no-repeat;
+	background-size: 100% 300%;
+}
+
+.io_st_passed{
+	background-position: center 50%;
+	color:#fff;
+}
+.io_st_current{
+	background-position: center 0%;
+	color:#fff;
+	font-weight:bold;
+}
+.io_no-st{
+	background-position: center 100%;
+}

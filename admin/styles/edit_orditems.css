@@ -1,0 +1,64 @@
+.editable_row{
+	display:none;
+}
+#change_qty{
+	background:url(../../images/actions/edit.png) no-repeat top center;
+	border:0;
+	text-indent:100px;
+	overflow:hidden;
+	width:25px;
+	height:25px;
+	cursor:pointer;
+}
+#change_qty:hover{
+	background:url(../../images/actions/edit.png) no-repeat bottom center;
+}
+#update_qty, #update_installer{
+	background:url(../../images/actions/update.png) no-repeat center;
+	border:0;
+	text-indent:100px;
+	overflow:hidden;
+	width:25px;
+	height:25px;
+	cursor:pointer;
+}
+
+
+.edit_misc{
+	background:url(../../images/actions/edit.png) no-repeat top center;
+	border:0;
+	text-indent:100px;
+	overflow:hidden;
+	width:25px;
+	height:25px;
+	cursor:pointer;
+}
+.edit_misc:hover{
+	background:url(../../images/actions/edit.png) no-repeat bottom center;
+}
+
+.ipeditable, .ipeditable_qty{
+	margin:3px;
+	border:solid 1px #D6D6D6;
+	background:#F0F0F0;
+	padding:0 3px;
+}
+.ipeditable_qty{
+	padding:3px 5px;
+	width:30px;
+}
+.ipunedit_qty{
+	background:none;
+	border:0;
+	text-align:center;
+}
+
+.delete_adnlitem{
+	background:url(../../images/actions/remove.png) no-repeat center;
+	border:0;
+	text-indent:100px;
+	overflow:hidden;
+	width:25px;
+	height:25px;
+	cursor:pointer;
+}

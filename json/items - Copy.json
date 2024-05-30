@@ -1,0 +1,238 @@
+{
+	"items": [
+		{
+			"name": "Appliances",
+			"default": 1,
+			"items": [
+				{
+					"name": "Refrigerator",
+					"image": "images/models/thumbnails/refrigerator.png",
+					"model": "assets/models/appliances/refrigerator.js",
+					"def_sizes": {
+						"width": 91.44,
+						"height": 172.72,
+						"depth": 60.96
+					},
+					"measurements": {
+						"minW": 91.44,
+						"maxW": 91.44,
+						"minH": 172.72,
+						"maxH": 172.72,
+						"minD": 60.96,
+						"maxD": 60.96,
+						"inc_dec_W": 0,
+						"inc_dec_H": 0,
+						"inc_dec_D": 0
+					},
+					"sku": "10452596771",
+					"price": "0",
+					"uom": "Each",
+					"status": 1,
+					"type": "8"
+				},
+				{
+					"name": "Dish Washer",
+					"image": "images/models/thumbnails/dishwasher.png",
+					"def_sizes": {
+						"width": 60.96,
+						"height": 83.82,
+						"depth": 60.96
+					},
+					"measurements": {
+						"minW": 60.96,
+						"maxW": 60.96,
+						"minH": 83.82,
+						"maxH": 83.82,
+						"minD": 60.96,
+						"maxD": 60.96,
+						"inc_dec_W": 0,
+						"inc_dec_H": 0,
+						"inc_dec_D": 0
+					},
+					"model": "assets/models/appliances/dish-washer.js",
+					"sku": "10452596772",
+					"price": "0",
+					"uom": "Each",
+					"status": 1,
+					"type": "8"
+				},
+				{
+					"name": "Stove with Oven",
+					"image": "images/models/thumbnails/stove-oven.png",
+					"model": "assets/models/appliances/stove-oven.js",
+					"def_sizes": {
+						"width": 76.2,
+						"height": 88.9,
+						"depth": 60.96
+					},
+					"measurements": {
+						"minW": 76.2,
+						"maxW": 76.2,
+						"minH": 88.9,
+						"maxH": 88.9,
+						"minD": 60.96,
+						"maxD": 60.96,
+						"inc_dec_W": 0,
+						"inc_dec_H": 0,
+						"inc_dec_D": 0
+					},
+					"sku": "10452596773",
+					"price": "0",
+					"uom": "Each",
+					"status": 1,
+					"type": "8"
+				},
+				{
+					"name": "Stove",
+					"image": "images/models/thumbnails/stove.png",
+					"model": "assets/models/appliances/cube.js",
+					"sku": "10452596774",
+					"price": "0",
+					"uom": "Each",
+					"status": 1,
+					"type": "8"
+				},
+				{
+					"name": "Oven",
+					"image": "images/models/thumbnails/Oven.png",
+					"model": "assets/models/appliances/cube.js",
+					"sku": "10452596775",
+					"price": "0",
+					"uom": "Each",
+					"status": 0,
+					"type": "8"
+				},
+				{
+					"name": "Sink",
+					"image": "images/models/thumbnails/sink.png",
+					"model": "assets/models/appliances/sink.js",
+					"sku": "10452596776",
+					"price": "0",
+					"uom": "Each",
+					"status": 1,
+					"type": "2"
+				},
+				{
+					"name": "Range Hood",
+					"image": "images/models/thumbnails/chimney.png",
+					"model": "assets/models/appliances/chimney.js",
+					"sku": "10452596777",
+					"price": "0",
+					"uom": "Each",
+					"status": 0,
+					"type": "2"
+				}
+			]
+		},
+		{
+			"name": "Openings",
+			"default": 0,
+			"items": [
+				{
+					"name": "Window",
+					"image": "images/models/thumbnails/thumbnail_window.png",
+					"model": "assets/models/whitewindow.js",
+					"sku": "10452596778",
+					"price": "0",
+					"uom": "Each",
+					"status": 1,
+					"type": "3",
+					"def_sizes": {
+						"width": 91.44,
+						"height": 121.92,
+						"depth": 7.62
+					},
+					"measurements": {
+						"minW": 60.96,
+						"maxW": 91.44,
+						"minH": 60.96,
+						"maxH": 152.4,
+						"minD": 7.62,
+						"maxD": 7.62,
+						"inc_dec_W": 3,
+						"inc_dec_H": 3,
+						"inc_dec_D": 3
+					}
+				},
+				{
+					"name": "Closed Door",
+					"image": "images/models/thumbnails/thumbnail_Screen_Shot_2014-10-27_at_8.04.12_PM.png",
+					"model": "assets/models/closed-door28x80_baked.js",
+					"sku": "10452596779",
+					"price": "0",
+					"uom": "Each",
+					"status": 1,
+					"type": "7",
+					"def_sizes": {
+						"width": 91.44,
+						"height": 182.88,
+						"depth": 7.62
+					},
+					"measurements": {
+						"minW": 91.44,
+						"maxW": 121.92,
+						"minH": 152.4,
+						"maxH": 213.36,
+						"minD": 7.62,
+						"maxD": 7.62,
+						"inc_dec_W": 3,
+						"inc_dec_H": 3,
+						"inc_dec_D": 3
+					}
+				},
+				{
+					"name": "Open Door",
+					"image": "images/models/thumbnails/thumbnail_Screen_Shot_2014-10-27_at_8.22.46_PM.png",
+					"model": "assets/models/open_door.js",
+					"sku": "10452596780",
+					"price": "0",
+					"uom": "Each",
+					"status": 1,
+					"type": "7",
+					"def_sizes": {
+						"width": 91.44,
+						"height": 182.88,
+						"depth": 7.62
+					},
+					"measurements": {
+						"minW": 91.44,
+						"maxW": 121.92,
+						"minH": 152.4,
+						"maxH": 213.36,
+						"minD": 7.62,
+						"maxD": 7.62,
+						"inc_dec_W": 3,
+						"inc_dec_H": 3,
+						"inc_dec_D": 3
+					}
+				},
+				{
+					"name": "Half Wall",
+					"image": "images/models/thumbnails/half_wall.png",
+					"model": "assets/models/half_wall.js",
+					"sku": "10452596781",
+					"price": "0",
+					"uom": "Each",
+					"status": 1,
+					"type": "3",
+					"def_sizes": {
+						"width": 91.44,
+						"height": 182.88,
+						"depth": 7.62
+					},
+					"measurements": {
+						"minW": 91.44,
+						"maxW": 121.92,
+						"minH": 182.88,
+						"maxH": 213.36,
+						"minD": 7.62,
+						"maxD": 7.62,
+						"inc_dec_W": 3,
+						"inc_dec_H": 3,
+						"inc_dec_D": 3
+					}
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,90 @@
+{
+	"floorplan": {
+		"corners": {
+			"56d9ebd1-91b2-875c-799d-54b3785fca1f": {
+				"x": 559,
+				"y": -228
+			},
+			"8f4a050d-e102-3c3f-5af9-3d9133555d76": {
+				"x": 0,
+				"y": -228
+			},
+			"4e312eca-6c4f-30d1-3d9a-a19a9d1ee359": {
+				"x": 0,
+				"y": 147.9
+			},
+			"254656bf-8a53-3987-c810-66b349f49b19": {
+				"x": 559,
+				"y": 147.9
+			}
+		},
+		"walls": [
+			{
+				"corner1": "8f4a050d-e102-3c3f-5af9-3d9133555d76",
+				"corner2": "4e312eca-6c4f-30d1-3d9a-a19a9d1ee359",
+				"frontTexture": {
+					"url": "images/rooms/textures/wallmap.png",
+					"stretch": true,
+					"scale": 0
+				},
+				"backTexture": {
+					"url": "images/rooms/textures/wallmap.png",
+					"stretch": true,
+					"scale": null
+				}
+			},
+			{
+				"corner1": "56d9ebd1-91b2-875c-799d-54b3785fca1f",
+				"corner2": "8f4a050d-e102-3c3f-5af9-3d9133555d76",
+				"frontTexture": {
+					"url": "images/rooms/textures/wallmap.png",
+					"stretch": true,
+					"scale": 0
+				},
+				"backTexture": {
+					"url": "images/rooms/textures/wallmap.png",
+					"stretch": true,
+					"scale": null
+				}
+			},
+			{
+				"corner1": "254656bf-8a53-3987-c810-66b349f49b19",
+				"corner2": "56d9ebd1-91b2-875c-799d-54b3785fca1f",
+				"frontTexture": {
+					"url": "images/rooms/textures/wallmap.png",
+					"stretch": true,
+					"scale": 0
+				},
+				"backTexture": {
+					"url": "images/rooms/textures/wallmap.png",
+					"stretch": true,
+					"scale": null
+				}
+			},
+			{
+				"corner1": "4e312eca-6c4f-30d1-3d9a-a19a9d1ee359",
+				"corner2": "254656bf-8a53-3987-c810-66b349f49b19",
+				"frontTexture": {
+					"url": "images/rooms/textures/wallmap.png",
+					"stretch": true,
+					"scale": 0
+				},
+				"backTexture": {
+					"url": "images/rooms/textures/wallmap.png",
+					"stretch": true,
+					"scale": null
+				}
+			}
+		],
+		"wallTextures": [],
+		"floorTextures": {},
+		"newFloorTextures": {
+			"11d25193-4411-fbbf-78cb-ae7c0283164b,254656bf-8a53-3987-c810-66b349f49b19,e7db8654-efe1-bda2-099a-70585874d8c0,edf0de13-df9f-cd6a-7d11-9bd13c36ce12": {
+				"url": "images/rooms/textures/marbletiles.jpg",
+				"scale": 300
+			}
+		}
+	},
+	"items": [
+	]
+}

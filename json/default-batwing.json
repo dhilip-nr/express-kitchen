@@ -1,0 +1,3114 @@
+{
+	"floorplan": {
+		"corners": {
+			"56d9ebd1-91b2-875c-799d-54b3785fca1f": {
+				"x": 559,
+				"y": -228
+			},
+			"8f4a050d-e102-3c3f-5af9-3d9133555d76": {
+				"x": 0,
+				"y": -228
+			},
+			"4e312eca-6c4f-30d1-3d9a-a19a9d1ee359": {
+				"x": 0,
+				"y": 147.9
+			},
+			"254656bf-8a53-3987-c810-66b349f49b19": {
+				"x": 559,
+				"y": 147.9
+			},
+			"7d514169-c75d-b971-a7e2-adaa167bcfbd": {
+				"x": 150,
+				"y": -24
+			},
+			"ec96e7d4-4f8f-5897-e74a-4f2387f22b7a": {
+				"x": 190,
+				"y": 40
+			},
+			"8c058bb3-d20e-89ab-20b0-9d3d7895996f": {
+				"x": 374,
+				"y": 40
+			},
+			"6c92b861-7dea-f413-10de-b204c96b58bc": {
+				"x": 414,
+				"y": -24
+			}
+		},
+		"walls": [
+			{
+				"corner1": "4e312eca-6c4f-30d1-3d9a-a19a9d1ee359",
+				"corner2": "254656bf-8a53-3987-c810-66b349f49b19",
+				"frontTexture": {
+					"url": "images/rooms/textures/wallmap.png",
+					"stretch": true,
+					"scale": 0
+				},
+				"backTexture": {
+					"url": "images/rooms/textures/wallmap.png",
+					"stretch": true,
+					"scale": null
+				}
+			},
+			{
+				"corner1": "254656bf-8a53-3987-c810-66b349f49b19",
+				"corner2": "56d9ebd1-91b2-875c-799d-54b3785fca1f",
+				"frontTexture": {
+					"url": "images/rooms/textures/wallmap.png",
+					"stretch": true,
+					"scale": 0
+				},
+				"backTexture": {
+					"url": "images/rooms/textures/wallmap.png",
+					"stretch": true,
+					"scale": null
+				}
+			},
+			{
+				"corner1": "56d9ebd1-91b2-875c-799d-54b3785fca1f",
+				"corner2": "8f4a050d-e102-3c3f-5af9-3d9133555d76",
+				"frontTexture": {
+					"url": "images/rooms/textures/wallmap.png",
+					"stretch": true,
+					"scale": 0
+				},
+				"backTexture": {
+					"url": "images/rooms/textures/wallmap.png",
+					"stretch": true,
+					"scale": null
+				}
+			},
+			{
+				"corner1": "8f4a050d-e102-3c3f-5af9-3d9133555d76",
+				"corner2": "4e312eca-6c4f-30d1-3d9a-a19a9d1ee359",
+				"frontTexture": {
+					"url": "images/rooms/textures/wallmap.png",
+					"stretch": true,
+					"scale": 0
+				},
+				"backTexture": {
+					"url": "images/rooms/textures/wallmap.png",
+					"stretch": true,
+					"scale": null
+				}
+			},
+			{
+				"corner1": "7d514169-c75d-b971-a7e2-adaa167bcfbd",
+				"corner2": "ec96e7d4-4f8f-5897-e74a-4f2387f22b7a",
+				"frontTexture": {
+					"url": "images/rooms/textures/wallmap.png",
+					"stretch": true,
+					"scale": 0
+				},
+				"backTexture": {
+					"url": "images/rooms/textures/wallmap.png",
+					"stretch": true,
+					"scale": null
+				},
+				"height": 90
+			},
+			{
+				"corner1": "ec96e7d4-4f8f-5897-e74a-4f2387f22b7a",
+				"corner2": "8c058bb3-d20e-89ab-20b0-9d3d7895996f",
+				"frontTexture": {
+					"url": "images/rooms/textures/wallmap.png",
+					"stretch": true,
+					"scale": 0
+				},
+				"backTexture": {
+					"url": "images/rooms/textures/wallmap.png",
+					"stretch": true,
+					"scale": null
+				},
+				"height": 90
+			},
+			{
+				"corner1": "8c058bb3-d20e-89ab-20b0-9d3d7895996f",
+				"corner2": "6c92b861-7dea-f413-10de-b204c96b58bc",
+				"frontTexture": {
+					"url": "images/rooms/textures/wallmap.png",
+					"stretch": true,
+					"scale": 0
+				},
+				"backTexture": {
+					"url": "images/rooms/textures/wallmap.png",
+					"stretch": true,
+					"scale": null
+				},
+				"height": 90
+			}
+		],
+		"wallTextures": [],
+		"floorTextures": {},
+		"newFloorTextures": {
+			"11d25193-4411-fbbf-78cb-ae7c0283164b,254656bf-8a53-3987-c810-66b349f49b19,e7db8654-efe1-bda2-099a-70585874d8c0,edf0de13-df9f-cd6a-7d11-9bd13c36ce12": {
+				"url": "images/rooms/textures/marbletiles.jpg",
+				"scale": 300
+			}
+		}
+	},
+    "items": [
+        {
+            "name": "Appliances",
+            "items": [
+                {
+                    "item_name": "Refrigerator",
+                    "item_type": 8,
+                    "model_url": "assets/models/appliances/refrigerator.js",
+                    "def_sizes": {
+                        "width": 91.44,
+                        "height": 172.72000000000003,
+                        "depth": 60.96
+                    },
+                    "image": "images/models/thumbnails/refrigerator.png",
+                    "price": "0",
+                    "sku": "10452596771",
+                    "measurements": {
+                        "minW": 76.2,
+                        "maxW": 91.44,
+                        "minH": 152.4,
+                        "maxH": 172.72,
+                        "minD": 60.96,
+                        "maxD": 60.96,
+                        "inc_dec_W": 1,
+                        "inc_dec_H": 1,
+                        "inc_dec_D": 0
+                    },
+                    "xpos": 52.57636372561228,
+                    "ypos": 86.36000000000001,
+                    "zpos": -191.34192491402865,
+                    "rotation": 0,
+                    "scale_x": 0.9999999999999997,
+                    "scale_y": 1.000003126457204,
+                    "scale_z": 0.9999993438324516,
+                    "resizable": true,
+                    "fixed": false,
+                    "textureUrl": "images/models/textures/transparent.png",
+                    "textureName": "None",
+                    "uom": "Each",
+                    "labor_cost": "undefined",
+                    "material_cost": "undefined"
+                }
+            ]
+        },
+        {
+            "name": "Base Cabinets",
+            "items": [
+                {
+                    "item_name": "B",
+                    "item_type": 9,
+                    "model_url": "assets/models/cabinets/base/b.js",
+                    "def_sizes": {
+                        "width": 60.96,
+                        "height": 87.63,
+                        "depth": 60.96
+                    },
+                    "image": "images/models/thumbnails/cabinets/B1.png",
+                    "price": "329.00",
+                    "sku": "HDIEK-10001",
+                    "measurements": {
+                        "minW": "60.96",
+                        "maxW": "91.44",
+                        "inc_dec_W": "7.62",
+                        "minH": "87.63",
+                        "maxH": "87.63",
+                        "inc_dec_H": "0",
+                        "minD": "60.96",
+                        "maxD": "60.96",
+                        "inc_dec_D": "0"
+                    },
+                    "xpos": 129.52373313335042,
+                    "ypos": 43.824999999999996,
+                    "zpos": -192.52,
+                    "rotation": 0,
+                    "scale_x": 0.7171536904121869,
+                    "scale_y": 1.1341356451080808,
+                    "scale_z": 1.4873262529186582,
+                    "resizable": true,
+                    "fixed": false,
+                    "textureUrl": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg",
+                    "textureName": "Wave Blue",
+                    "uom": "EA",
+                    "labor_cost": "0.00",
+                    "material_cost": "205.62",
+                    "door_config": {
+                        "colors": {
+                            "id": "8",
+                            "color_name": "Wave Blue",
+                            "color_like": "1001, 1002, 1003, 1004, 1005",
+                            "image_path": "wave_blue.jpg",
+                            "sort_by": "8",
+                            "idx": 8,
+                            "pattern_path": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg"
+                        },
+                        "doors": {
+                            "id": "3",
+                            "prod_id": "1003",
+                            "prod_name": "Barnsley Square",
+                            "short_desc": "Barnsley Square",
+                            "long_desc": "Barnsley Square 1PC RTF",
+                            "mat_id": "1",
+                            "image_path": "Barnsley_A6001.jpg",
+                            "dr_front_has": "[{\"name\":\"Barnsley Slab-A6000\",\"image_path\":\"Barnsley_A6000.jpg\"},{\"name\":\"Barnsley Routed-A6005\",\"image_path\":\"Barnsley_A6005.jpg\"}]",
+                            "status": "1",
+                            "sort_by": "3",
+                            "idx": 0
+                        },
+                        "material": {
+                            "id": "1",
+                            "mat_name": "Laminate",
+                            "mat_type": "1",
+                            "image_path": "",
+                            "status": "1",
+                            "idx": 0
+                        },
+                        "drawer": {
+                            "name": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "handle_fin": {
+                            "id": "8",
+                            "item_id": "108",
+                            "item_name": "Bronze",
+                            "image_path": "bronze.jpg",
+                            "status": "1",
+                            "sort_by": "8",
+                            "idx": 0
+                        },
+                        "handle_col": {
+                            "id": "52",
+                            "pull_id": "108",
+                            "sku": "HDIS-EK-PULL-352",
+                            "pull_name": "Bronze - 000212",
+                            "image_path": "_0000_000212.jpg",
+                            "short_desc": "Bronze - 000212",
+                            "model_no": "P33747C-VBR-CP",
+                            "item_type": "knobs",
+                            "status": "1",
+                            "sort_by": "52",
+                            "idx": 0
+                        },
+                        "corbels": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "moldings": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "valances": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "floating_shelf": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "misc_item": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "hinges": {},
+                        "drawer_slides": {}
+                    }
+                },
+                {
+                    "item_name": "B",
+                    "item_type": 9,
+                    "model_url": "assets/models/cabinets/base/b.js",
+                    "def_sizes": {
+                        "width": 60.96,
+                        "height": 87.63,
+                        "depth": 60.96
+                    },
+                    "image": "images/models/thumbnails/cabinets/B1.png",
+                    "price": "329.00",
+                    "sku": "HDIEK-10001",
+                    "measurements": {
+                        "minW": "60.96",
+                        "maxW": "91.44",
+                        "inc_dec_W": "7.62",
+                        "minH": "87.63",
+                        "maxH": "87.63",
+                        "inc_dec_H": "0",
+                        "minD": "60.96",
+                        "maxD": "60.96",
+                        "inc_dec_D": "0"
+                    },
+                    "xpos": 190.5087331333504,
+                    "ypos": 43.824999999999996,
+                    "zpos": -192.52,
+                    "rotation": 0,
+                    "scale_x": 0.7171536904121869,
+                    "scale_y": 1.1341356451080808,
+                    "scale_z": 1.4873262529186582,
+                    "resizable": true,
+                    "fixed": false,
+                    "textureUrl": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg",
+                    "textureName": "Wave Blue",
+                    "uom": "EA",
+                    "labor_cost": "0.00",
+                    "material_cost": "205.62",
+                    "door_config": {
+                        "colors": {
+                            "id": "8",
+                            "color_name": "Wave Blue",
+                            "color_like": "1001, 1002, 1003, 1004, 1005",
+                            "image_path": "wave_blue.jpg",
+                            "sort_by": "8",
+                            "idx": 8,
+                            "pattern_path": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg"
+                        },
+                        "doors": {
+                            "id": "3",
+                            "prod_id": "1003",
+                            "prod_name": "Barnsley Square",
+                            "short_desc": "Barnsley Square",
+                            "long_desc": "Barnsley Square 1PC RTF",
+                            "mat_id": "1",
+                            "image_path": "Barnsley_A6001.jpg",
+                            "dr_front_has": "[{\"name\":\"Barnsley Slab-A6000\",\"image_path\":\"Barnsley_A6000.jpg\"},{\"name\":\"Barnsley Routed-A6005\",\"image_path\":\"Barnsley_A6005.jpg\"}]",
+                            "status": "1",
+                            "sort_by": "3",
+                            "idx": 0
+                        },
+                        "material": {
+                            "id": "1",
+                            "mat_name": "Laminate",
+                            "mat_type": "1",
+                            "image_path": "",
+                            "status": "1",
+                            "idx": 0
+                        },
+                        "drawer": {
+                            "name": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "handle_fin": {
+                            "id": "8",
+                            "item_id": "108",
+                            "item_name": "Bronze",
+                            "image_path": "bronze.jpg",
+                            "status": "1",
+                            "sort_by": "8",
+                            "idx": 0
+                        },
+                        "handle_col": {
+                            "id": "52",
+                            "pull_id": "108",
+                            "sku": "HDIS-EK-PULL-352",
+                            "pull_name": "Bronze - 000212",
+                            "image_path": "_0000_000212.jpg",
+                            "short_desc": "Bronze - 000212",
+                            "model_no": "P33747C-VBR-CP",
+                            "item_type": "knobs",
+                            "status": "1",
+                            "sort_by": "52",
+                            "idx": 0
+                        },
+                        "corbels": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "moldings": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "valances": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "floating_shelf": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "misc_item": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "hinges": {},
+                        "drawer_slides": {}
+                    }
+                },
+                {
+                    "item_name": "B2",
+                    "item_type": 9,
+                    "model_url": "assets/models/cabinets/base/b2.js",
+                    "def_sizes": {
+                        "width": 60.96,
+                        "height": 87.63,
+                        "depth": 60.96
+                    },
+                    "image": "images/models/thumbnails/cabinets/B2.png",
+                    "price": "404.00",
+                    "sku": "HDIEK-10015",
+                    "measurements": {
+                        "minW": "60.96",
+                        "maxW": "91.44",
+                        "inc_dec_W": "3",
+                        "minH": "87.63",
+                        "maxH": "87.63",
+                        "inc_dec_H": "0",
+                        "minD": "60.96",
+                        "maxD": "60.96",
+                        "inc_dec_D": "0"
+                    },
+                    "xpos": 343.5460144009527,
+                    "ypos": 43.824999999999996,
+                    "zpos": -192.51999999999998,
+                    "rotation": 0,
+                    "scale_x": 2.031918723251071,
+                    "scale_y": 3.506292560761933,
+                    "scale_z": 1.9911157564672077,
+                    "resizable": true,
+                    "fixed": false,
+                    "textureUrl": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg",
+                    "textureName": "Wave Blue",
+                    "uom": "EA",
+                    "labor_cost": "0.00",
+                    "material_cost": "252.50",
+                    "door_config": {
+                        "colors": {
+                            "id": "8",
+                            "color_name": "Wave Blue",
+                            "color_like": "1001, 1002, 1003, 1004, 1005",
+                            "image_path": "wave_blue.jpg",
+                            "sort_by": "8",
+                            "idx": 8,
+                            "pattern_path": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg"
+                        },
+                        "doors": {
+                            "id": "3",
+                            "prod_id": "1003",
+                            "prod_name": "Barnsley Square",
+                            "short_desc": "Barnsley Square",
+                            "long_desc": "Barnsley Square 1PC RTF",
+                            "mat_id": "1",
+                            "image_path": "Barnsley_A6001.jpg",
+                            "dr_front_has": "[{\"name\":\"Barnsley Slab-A6000\",\"image_path\":\"Barnsley_A6000.jpg\"},{\"name\":\"Barnsley Routed-A6005\",\"image_path\":\"Barnsley_A6005.jpg\"}]",
+                            "status": "1",
+                            "sort_by": "3",
+                            "idx": 0
+                        },
+                        "material": {
+                            "id": "1",
+                            "mat_name": "Laminate",
+                            "mat_type": "1",
+                            "image_path": "",
+                            "status": "1",
+                            "idx": 0
+                        },
+                        "drawer": {
+                            "name": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "handle_fin": {
+                            "id": "8",
+                            "item_id": "108",
+                            "item_name": "Bronze",
+                            "image_path": "bronze.jpg",
+                            "status": "1",
+                            "sort_by": "8",
+                            "idx": 0
+                        },
+                        "handle_col": {
+                            "id": "52",
+                            "pull_id": "108",
+                            "sku": "HDIS-EK-PULL-352",
+                            "pull_name": "Bronze - 000212",
+                            "image_path": "_0000_000212.jpg",
+                            "short_desc": "Bronze - 000212",
+                            "model_no": "P33747C-VBR-CP",
+                            "item_type": "knobs",
+                            "status": "1",
+                            "sort_by": "52",
+                            "idx": 0
+                        },
+                        "corbels": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "moldings": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "valances": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "floating_shelf": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "misc_item": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "hinges": {},
+                        "drawer_slides": {}
+                    }
+                },
+                {
+                    "item_name": "B2",
+                    "item_type": 9,
+                    "model_url": "assets/models/cabinets/base/b2.js",
+                    "def_sizes": {
+                        "width": 60.96,
+                        "height": 87.63,
+                        "depth": 60.96
+                    },
+                    "image": "images/models/thumbnails/cabinets/B2.png",
+                    "price": "404.00",
+                    "sku": "HDIEK-10015",
+                    "measurements": {
+                        "minW": "60.96",
+                        "maxW": "91.44",
+                        "inc_dec_W": "3",
+                        "minH": "87.63",
+                        "maxH": "87.63",
+                        "inc_dec_H": "0",
+                        "minD": "60.96",
+                        "maxD": "60.96",
+                        "inc_dec_D": "0"
+                    },
+                    "xpos": 404.5310144009527,
+                    "ypos": 43.824999999999996,
+                    "zpos": -192.51999999999998,
+                    "rotation": 0,
+                    "scale_x": 2.031918723251071,
+                    "scale_y": 3.506292560761933,
+                    "scale_z": 1.9911157564672077,
+                    "resizable": true,
+                    "fixed": false,
+                    "textureUrl": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg",
+                    "textureName": "Wave Blue",
+                    "uom": "EA",
+                    "labor_cost": "0.00",
+                    "material_cost": "252.50",
+                    "door_config": {
+                        "colors": {
+                            "id": "8",
+                            "color_name": "Wave Blue",
+                            "color_like": "1001, 1002, 1003, 1004, 1005",
+                            "image_path": "wave_blue.jpg",
+                            "sort_by": "8",
+                            "idx": 8,
+                            "pattern_path": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg"
+                        },
+                        "doors": {
+                            "id": "3",
+                            "prod_id": "1003",
+                            "prod_name": "Barnsley Square",
+                            "short_desc": "Barnsley Square",
+                            "long_desc": "Barnsley Square 1PC RTF",
+                            "mat_id": "1",
+                            "image_path": "Barnsley_A6001.jpg",
+                            "dr_front_has": "[{\"name\":\"Barnsley Slab-A6000\",\"image_path\":\"Barnsley_A6000.jpg\"},{\"name\":\"Barnsley Routed-A6005\",\"image_path\":\"Barnsley_A6005.jpg\"}]",
+                            "status": "1",
+                            "sort_by": "3",
+                            "idx": 0
+                        },
+                        "material": {
+                            "id": "1",
+                            "mat_name": "Laminate",
+                            "mat_type": "1",
+                            "image_path": "",
+                            "status": "1",
+                            "idx": 0
+                        },
+                        "drawer": {
+                            "name": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "handle_fin": {
+                            "id": "8",
+                            "item_id": "108",
+                            "item_name": "Bronze",
+                            "image_path": "bronze.jpg",
+                            "status": "1",
+                            "sort_by": "8",
+                            "idx": 0
+                        },
+                        "handle_col": {
+                            "id": "52",
+                            "pull_id": "108",
+                            "sku": "HDIS-EK-PULL-352",
+                            "pull_name": "Bronze - 000212",
+                            "image_path": "_0000_000212.jpg",
+                            "short_desc": "Bronze - 000212",
+                            "model_no": "P33747C-VBR-CP",
+                            "item_type": "knobs",
+                            "status": "1",
+                            "sort_by": "52",
+                            "idx": 0
+                        },
+                        "corbels": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "moldings": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "valances": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "floating_shelf": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "misc_item": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "hinges": {},
+                        "drawer_slides": {}
+                    }
+                },
+                {
+                    "item_name": "B",
+                    "item_type": 9,
+                    "model_url": "assets/models/cabinets/base/b.js",
+                    "def_sizes": {
+                        "width": 60.96,
+                        "height": 87.63,
+                        "depth": 60.96
+                    },
+                    "image": "images/models/thumbnails/cabinets/B1.png",
+                    "price": "329.00",
+                    "sku": "HDIEK-10001",
+                    "measurements": {
+                        "minW": "60.96",
+                        "maxW": "91.44",
+                        "inc_dec_W": "7.62",
+                        "minH": "87.63",
+                        "maxH": "87.63",
+                        "inc_dec_H": "0",
+                        "minD": "60.96",
+                        "maxD": "60.96",
+                        "inc_dec_D": "0"
+                    },
+                    "xpos": 35.48000000000001,
+                    "ypos": 43.824999999999996,
+                    "zpos": -18.072120646267024,
+                    "rotation": 1.5707963267948966,
+                    "scale_x": 0.7171536904121869,
+                    "scale_y": 1.1341356451080808,
+                    "scale_z": 1.4873262529186582,
+                    "resizable": true,
+                    "fixed": false,
+                    "textureUrl": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg",
+                    "textureName": "Wave Blue",
+                    "uom": "EA",
+                    "labor_cost": "0.00",
+                    "material_cost": "205.62",
+                    "door_config": {
+                        "colors": {
+                            "id": "8",
+                            "color_name": "Wave Blue",
+                            "color_like": "1001, 1002, 1003, 1004, 1005",
+                            "image_path": "wave_blue.jpg",
+                            "sort_by": "8",
+                            "idx": 8,
+                            "pattern_path": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg"
+                        },
+                        "doors": {
+                            "id": "3",
+                            "prod_id": "1003",
+                            "prod_name": "Barnsley Square",
+                            "short_desc": "Barnsley Square",
+                            "long_desc": "Barnsley Square 1PC RTF",
+                            "mat_id": "1",
+                            "image_path": "Barnsley_A6001.jpg",
+                            "dr_front_has": "[{\"name\":\"Barnsley Slab-A6000\",\"image_path\":\"Barnsley_A6000.jpg\"},{\"name\":\"Barnsley Routed-A6005\",\"image_path\":\"Barnsley_A6005.jpg\"}]",
+                            "status": "1",
+                            "sort_by": "3",
+                            "idx": 0
+                        },
+                        "material": {
+                            "id": "1",
+                            "mat_name": "Laminate",
+                            "mat_type": "1",
+                            "image_path": "",
+                            "status": "1",
+                            "idx": 0
+                        },
+                        "drawer": {
+                            "name": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "handle_fin": {
+                            "id": "8",
+                            "item_id": "108",
+                            "item_name": "Bronze",
+                            "image_path": "bronze.jpg",
+                            "status": "1",
+                            "sort_by": "8",
+                            "idx": 0
+                        },
+                        "handle_col": {
+                            "id": "52",
+                            "pull_id": "108",
+                            "sku": "HDIS-EK-PULL-352",
+                            "pull_name": "Bronze - 000212",
+                            "image_path": "_0000_000212.jpg",
+                            "short_desc": "Bronze - 000212",
+                            "model_no": "P33747C-VBR-CP",
+                            "item_type": "knobs",
+                            "status": "1",
+                            "sort_by": "52",
+                            "idx": 0
+                        },
+                        "corbels": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "moldings": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "valances": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "floating_shelf": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "misc_item": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "hinges": {},
+                        "drawer_slides": {}
+                    }
+                },
+                {
+                    "item_name": "B",
+                    "item_type": 9,
+                    "model_url": "assets/models/cabinets/base/b.js",
+                    "def_sizes": {
+                        "width": 60.96,
+                        "height": 87.63,
+                        "depth": 60.96
+                    },
+                    "image": "images/models/thumbnails/cabinets/B1.png",
+                    "price": "329.00",
+                    "sku": "HDIEK-10001",
+                    "measurements": {
+                        "minW": "60.96",
+                        "maxW": "91.44",
+                        "inc_dec_W": "7.62",
+                        "minH": "87.63",
+                        "maxH": "87.63",
+                        "inc_dec_H": "0",
+                        "minD": "60.96",
+                        "maxD": "60.96",
+                        "inc_dec_D": "0"
+                    },
+                    "xpos": 35.48000000000002,
+                    "ypos": 43.824999999999996,
+                    "zpos": -79.05712064626704,
+                    "rotation": 1.5707963267948966,
+                    "scale_x": 0.7171536904121869,
+                    "scale_y": 1.1341356451080808,
+                    "scale_z": 1.4873262529186582,
+                    "resizable": true,
+                    "fixed": false,
+                    "textureUrl": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg",
+                    "textureName": "Wave Blue",
+                    "uom": "EA",
+                    "labor_cost": "0.00",
+                    "material_cost": "205.62",
+                    "door_config": {
+                        "colors": {
+                            "id": "8",
+                            "color_name": "Wave Blue",
+                            "color_like": "1001, 1002, 1003, 1004, 1005",
+                            "image_path": "wave_blue.jpg",
+                            "sort_by": "8",
+                            "idx": 8,
+                            "pattern_path": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg"
+                        },
+                        "doors": {
+                            "id": "3",
+                            "prod_id": "1003",
+                            "prod_name": "Barnsley Square",
+                            "short_desc": "Barnsley Square",
+                            "long_desc": "Barnsley Square 1PC RTF",
+                            "mat_id": "1",
+                            "image_path": "Barnsley_A6001.jpg",
+                            "dr_front_has": "[{\"name\":\"Barnsley Slab-A6000\",\"image_path\":\"Barnsley_A6000.jpg\"},{\"name\":\"Barnsley Routed-A6005\",\"image_path\":\"Barnsley_A6005.jpg\"}]",
+                            "status": "1",
+                            "sort_by": "3",
+                            "idx": 0
+                        },
+                        "material": {
+                            "id": "1",
+                            "mat_name": "Laminate",
+                            "mat_type": "1",
+                            "image_path": "",
+                            "status": "1",
+                            "idx": 0
+                        },
+                        "drawer": {
+                            "name": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "handle_fin": {
+                            "id": "8",
+                            "item_id": "108",
+                            "item_name": "Bronze",
+                            "image_path": "bronze.jpg",
+                            "status": "1",
+                            "sort_by": "8",
+                            "idx": 0
+                        },
+                        "handle_col": {
+                            "id": "52",
+                            "pull_id": "108",
+                            "sku": "HDIS-EK-PULL-352",
+                            "pull_name": "Bronze - 000212",
+                            "image_path": "_0000_000212.jpg",
+                            "short_desc": "Bronze - 000212",
+                            "model_no": "P33747C-VBR-CP",
+                            "item_type": "knobs",
+                            "status": "1",
+                            "sort_by": "52",
+                            "idx": 0
+                        },
+                        "corbels": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "moldings": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "valances": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "floating_shelf": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "misc_item": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "hinges": {},
+                        "drawer_slides": {}
+                    }
+                },
+                {
+                    "item_name": "B",
+                    "item_type": 9,
+                    "model_url": "assets/models/cabinets/base/b.js",
+                    "def_sizes": {
+                        "width": 60.96,
+                        "height": 87.63,
+                        "depth": 60.96
+                    },
+                    "image": "images/models/thumbnails/cabinets/B1.png",
+                    "price": "329.00",
+                    "sku": "HDIEK-10001",
+                    "measurements": {
+                        "minW": "60.96",
+                        "maxW": "91.44",
+                        "inc_dec_W": "7.62",
+                        "minH": "87.63",
+                        "maxH": "87.63",
+                        "inc_dec_H": "0",
+                        "minD": "60.96",
+                        "maxD": "60.96",
+                        "inc_dec_D": "0"
+                    },
+                    "xpos": 35.480000000000004,
+                    "ypos": 43.824999999999996,
+                    "zpos": 42.91287935373299,
+                    "rotation": 1.5707963267948966,
+                    "scale_x": 0.7171536904121869,
+                    "scale_y": 1.1341356451080808,
+                    "scale_z": 1.4873262529186582,
+                    "resizable": true,
+                    "fixed": false,
+                    "textureUrl": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg",
+                    "textureName": "Wave Blue",
+                    "uom": "EA",
+                    "labor_cost": "0.00",
+                    "material_cost": "205.62",
+                    "door_config": {
+                        "colors": {
+                            "id": "8",
+                            "color_name": "Wave Blue",
+                            "color_like": "1001, 1002, 1003, 1004, 1005",
+                            "image_path": "wave_blue.jpg",
+                            "sort_by": "8",
+                            "idx": 8,
+                            "pattern_path": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg"
+                        },
+                        "doors": {
+                            "id": "3",
+                            "prod_id": "1003",
+                            "prod_name": "Barnsley Square",
+                            "short_desc": "Barnsley Square",
+                            "long_desc": "Barnsley Square 1PC RTF",
+                            "mat_id": "1",
+                            "image_path": "Barnsley_A6001.jpg",
+                            "dr_front_has": "[{\"name\":\"Barnsley Slab-A6000\",\"image_path\":\"Barnsley_A6000.jpg\"},{\"name\":\"Barnsley Routed-A6005\",\"image_path\":\"Barnsley_A6005.jpg\"}]",
+                            "status": "1",
+                            "sort_by": "3",
+                            "idx": 0
+                        },
+                        "material": {
+                            "id": "1",
+                            "mat_name": "Laminate",
+                            "mat_type": "1",
+                            "image_path": "",
+                            "status": "1",
+                            "idx": 0
+                        },
+                        "drawer": {
+                            "name": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "handle_fin": {
+                            "id": "8",
+                            "item_id": "108",
+                            "item_name": "Bronze",
+                            "image_path": "bronze.jpg",
+                            "status": "1",
+                            "sort_by": "8",
+                            "idx": 0
+                        },
+                        "handle_col": {
+                            "id": "52",
+                            "pull_id": "108",
+                            "sku": "HDIS-EK-PULL-352",
+                            "pull_name": "Bronze - 000212",
+                            "image_path": "_0000_000212.jpg",
+                            "short_desc": "Bronze - 000212",
+                            "model_no": "P33747C-VBR-CP",
+                            "item_type": "knobs",
+                            "status": "1",
+                            "sort_by": "52",
+                            "idx": 0
+                        },
+                        "corbels": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "moldings": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "valances": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "floating_shelf": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "misc_item": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "hinges": {},
+                        "drawer_slides": {}
+                    }
+                },
+                {
+                    "item_name": "B",
+                    "item_type": 9,
+                    "model_url": "assets/models/cabinets/base/b.js",
+                    "def_sizes": {
+                        "width": 60.96,
+                        "height": 87.63,
+                        "depth": 60.96
+                    },
+                    "image": "images/models/thumbnails/cabinets/B1.png",
+                    "price": "329.00",
+                    "sku": "HDIEK-10001",
+                    "measurements": {
+                        "minW": "60.96",
+                        "maxW": "91.44",
+                        "inc_dec_W": "7.62",
+                        "minH": "87.63",
+                        "maxH": "87.63",
+                        "inc_dec_H": "0",
+                        "minD": "60.96",
+                        "maxD": "60.96",
+                        "inc_dec_D": "0"
+                    },
+                    "xpos": 35.480000000000004,
+                    "ypos": 43.824999999999996,
+                    "zpos": 103.89787935373299,
+                    "rotation": 1.5707963267948966,
+                    "scale_x": 0.7171536904121869,
+                    "scale_y": 1.1341356451080808,
+                    "scale_z": 1.4873262529186582,
+                    "resizable": true,
+                    "fixed": false,
+                    "textureUrl": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg",
+                    "textureName": "Wave Blue",
+                    "uom": "EA",
+                    "labor_cost": "0.00",
+                    "material_cost": "205.62",
+                    "door_config": {
+                        "colors": {
+                            "id": "8",
+                            "color_name": "Wave Blue",
+                            "color_like": "1001, 1002, 1003, 1004, 1005",
+                            "image_path": "wave_blue.jpg",
+                            "sort_by": "8",
+                            "idx": 8,
+                            "pattern_path": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg"
+                        },
+                        "doors": {
+                            "id": "3",
+                            "prod_id": "1003",
+                            "prod_name": "Barnsley Square",
+                            "short_desc": "Barnsley Square",
+                            "long_desc": "Barnsley Square 1PC RTF",
+                            "mat_id": "1",
+                            "image_path": "Barnsley_A6001.jpg",
+                            "dr_front_has": "[{\"name\":\"Barnsley Slab-A6000\",\"image_path\":\"Barnsley_A6000.jpg\"},{\"name\":\"Barnsley Routed-A6005\",\"image_path\":\"Barnsley_A6005.jpg\"}]",
+                            "status": "1",
+                            "sort_by": "3",
+                            "idx": 0
+                        },
+                        "material": {
+                            "id": "1",
+                            "mat_name": "Laminate",
+                            "mat_type": "1",
+                            "image_path": "",
+                            "status": "1",
+                            "idx": 0
+                        },
+                        "drawer": {
+                            "name": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "handle_fin": {
+                            "id": "8",
+                            "item_id": "108",
+                            "item_name": "Bronze",
+                            "image_path": "bronze.jpg",
+                            "status": "1",
+                            "sort_by": "8",
+                            "idx": 0
+                        },
+                        "handle_col": {
+                            "id": "52",
+                            "pull_id": "108",
+                            "sku": "HDIS-EK-PULL-352",
+                            "pull_name": "Bronze - 000212",
+                            "image_path": "_0000_000212.jpg",
+                            "short_desc": "Bronze - 000212",
+                            "model_no": "P33747C-VBR-CP",
+                            "item_type": "knobs",
+                            "status": "1",
+                            "sort_by": "52",
+                            "idx": 0
+                        },
+                        "corbels": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "moldings": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "valances": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "floating_shelf": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "misc_item": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "hinges": {},
+                        "drawer_slides": {}
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Openings",
+            "items": [
+                {
+                    "item_name": "Window",
+                    "item_type": 3,
+                    "model_url": "assets/models/whitewindow.js",
+                    "def_sizes": {
+                        "width": 76.2,
+                        "height": 91.44,
+                        "depth": 10.16
+                    },
+                    "image": "images/models/thumbnails/thumbnail_window.png",
+                    "price": "0",
+                    "sku": "10452596778",
+                    "measurements": {
+                        "minW": 60.96,
+                        "maxW": 152.4,
+                        "minH": 91.44,
+                        "maxH": 152.4,
+                        "minD": 10.16,
+                        "maxD": 10.16,
+                        "inc_dec_W": 1,
+                        "inc_dec_H": 1,
+                        "inc_dec_D": 0
+                    },
+                    "xpos": 261.77324729061263,
+                    "ypos": 181.50417167159787,
+                    "zpos": -227.5,
+                    "rotation": 0,
+                    "scale_x": 0.6191249999996631,
+                    "scale_y": 0.5363900640048884,
+                    "scale_z": 0.6888255336902859,
+                    "resizable": true,
+                    "fixed": false,
+                    "textureUrl": "images/models/textures/transparent.png",
+                    "textureName": "None",
+                    "uom": "Each",
+                    "labor_cost": "undefined",
+                    "material_cost": "undefined"
+                }
+            ]
+        },
+        {
+            "name": "Sink Cabinets",
+            "items": [
+                {
+                    "item_name": "B2-S",
+                    "item_type": 9,
+                    "model_url": "assets/models/cabinets/sink-base/b2.js",
+                    "def_sizes": {
+                        "width": 91.44,
+                        "height": 87.63,
+                        "depth": 60.96
+                    },
+                    "image": "images/models/thumbnails/sink-cab/B2.jpg",
+                    "price": "631.25",
+                    "sku": "HDIEK-10198",
+                    "measurements": {
+                        "minW": "60.96",
+                        "maxW": "91.44",
+                        "inc_dec_W": "3",
+                        "minH": "87.63",
+                        "maxH": "87.63",
+                        "inc_dec_H": "0",
+                        "minD": "60.96",
+                        "maxD": "60.96",
+                        "inc_dec_D": "0"
+                    },
+                    "xpos": 267.3210215926604,
+                    "ypos": 43.82499999999999,
+                    "zpos": -192.51999999999998,
+                    "rotation": 0,
+                    "scale_x": 1.5000000000000004,
+                    "scale_y": 1.0022877735989415,
+                    "scale_z": 1.0000016404226384,
+                    "resizable": true,
+                    "fixed": false,
+                    "textureUrl": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg",
+                    "textureName": "Wave Blue",
+                    "uom": "EA",
+                    "labor_cost": "101.00",
+                    "material_cost": "151.50",
+                    "door_config": {
+                        "colors": {
+                            "id": "8",
+                            "color_name": "Wave Blue",
+                            "color_like": "1001, 1002, 1003, 1004, 1005",
+                            "image_path": "wave_blue.jpg",
+                            "sort_by": "8",
+                            "idx": 8,
+                            "pattern_path": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg"
+                        },
+                        "doors": {
+                            "id": "3",
+                            "prod_id": "1003",
+                            "prod_name": "Barnsley Square",
+                            "short_desc": "Barnsley Square",
+                            "long_desc": "Barnsley Square 1PC RTF",
+                            "mat_id": "1",
+                            "image_path": "Barnsley_A6001.jpg",
+                            "dr_front_has": "[{\"name\":\"Barnsley Slab-A6000\",\"image_path\":\"Barnsley_A6000.jpg\"},{\"name\":\"Barnsley Routed-A6005\",\"image_path\":\"Barnsley_A6005.jpg\"}]",
+                            "status": "1",
+                            "sort_by": "3",
+                            "idx": 0
+                        },
+                        "material": {
+                            "id": "1",
+                            "mat_name": "Laminate",
+                            "mat_type": "1",
+                            "image_path": "",
+                            "status": "1",
+                            "idx": 0
+                        },
+                        "drawer": {
+                            "name": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "handle_fin": {
+                            "id": "8",
+                            "item_id": "108",
+                            "item_name": "Bronze",
+                            "image_path": "bronze.jpg",
+                            "status": "1",
+                            "sort_by": "8",
+                            "idx": 0
+                        },
+                        "handle_col": {
+                            "id": "52",
+                            "pull_id": "108",
+                            "sku": "HDIS-EK-PULL-352",
+                            "pull_name": "Bronze - 000212",
+                            "image_path": "_0000_000212.jpg",
+                            "short_desc": "Bronze - 000212",
+                            "model_no": "P33747C-VBR-CP",
+                            "item_type": "knobs",
+                            "status": "1",
+                            "sort_by": "52",
+                            "idx": 0
+                        },
+                        "corbels": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "moldings": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "valances": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "floating_shelf": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "misc_item": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "hinges": {},
+                        "drawer_slides": {}
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Tall Cabinets",
+            "items": [
+                {
+                    "item_name": "TP1D",
+                    "item_type": 9,
+                    "model_url": "assets/models/cabinets/tall/tp1d.js",
+                    "def_sizes": {
+                        "width": 53.34000000000001,
+                        "height": 213.36,
+                        "depth": 60.96
+                    },
+                    "image": "images/models/thumbnails/cabinets/TP1D.png",
+                    "price": "652.00",
+                    "sku": "HDIEK-10159",
+                    "measurements": {
+                        "minW": "53.34",
+                        "maxW": "91.44",
+                        "inc_dec_W": "3",
+                        "minH": "213.36",
+                        "maxH": "213.36",
+                        "inc_dec_H": "0",
+                        "minD": "60.96",
+                        "maxD": "60.96",
+                        "inc_dec_D": "0"
+                    },
+                    "xpos": 523.52,
+                    "ypos": 106.69000000000001,
+                    "zpos": -194.07898891153965,
+                    "rotation": -1.5707963267948966,
+                    "scale_x": 1.1177796963930962,
+                    "scale_y": 1.929654785699428,
+                    "scale_z": 1.8490657607376857,
+                    "resizable": true,
+                    "fixed": false,
+                    "textureUrl": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg",
+                    "textureName": "Wave Blue",
+                    "uom": "EA",
+                    "labor_cost": "0.00",
+                    "material_cost": "407.50",
+                    "door_config": {
+                        "colors": {
+                            "id": "8",
+                            "color_name": "Wave Blue",
+                            "color_like": "1001, 1002, 1003, 1004, 1005",
+                            "image_path": "wave_blue.jpg",
+                            "sort_by": "8",
+                            "idx": 8,
+                            "pattern_path": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg"
+                        },
+                        "doors": {
+                            "id": "3",
+                            "prod_id": "1003",
+                            "prod_name": "Barnsley Square",
+                            "short_desc": "Barnsley Square",
+                            "long_desc": "Barnsley Square 1PC RTF",
+                            "mat_id": "1",
+                            "image_path": "Barnsley_A6001.jpg",
+                            "dr_front_has": "[{\"name\":\"Barnsley Slab-A6000\",\"image_path\":\"Barnsley_A6000.jpg\"},{\"name\":\"Barnsley Routed-A6005\",\"image_path\":\"Barnsley_A6005.jpg\"}]",
+                            "status": "1",
+                            "sort_by": "3",
+                            "idx": 0
+                        },
+                        "material": {
+                            "id": "1",
+                            "mat_name": "Laminate",
+                            "mat_type": "1",
+                            "image_path": "",
+                            "status": "1",
+                            "idx": 0
+                        },
+                        "drawer": {
+                            "name": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "handle_fin": {
+                            "id": "8",
+                            "item_id": "108",
+                            "item_name": "Bronze",
+                            "image_path": "bronze.jpg",
+                            "status": "1",
+                            "sort_by": "8",
+                            "idx": 0
+                        },
+                        "handle_col": {
+                            "id": "52",
+                            "pull_id": "108",
+                            "sku": "HDIS-EK-PULL-352",
+                            "pull_name": "Bronze - 000212",
+                            "image_path": "_0000_000212.jpg",
+                            "short_desc": "Bronze - 000212",
+                            "model_no": "P33747C-VBR-CP",
+                            "item_type": "knobs",
+                            "status": "1",
+                            "sort_by": "52",
+                            "idx": 0
+                        },
+                        "corbels": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "moldings": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "valances": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "floating_shelf": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "misc_item": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "hinges": {},
+                        "drawer_slides": {}
+                    }
+                },
+                {
+                    "item_name": "TP1D",
+                    "item_type": 9,
+                    "model_url": "assets/models/cabinets/tall/tp1d.js",
+                    "def_sizes": {
+                        "width": 53.34000000000001,
+                        "height": 213.36,
+                        "depth": 60.96
+                    },
+                    "image": "images/models/thumbnails/cabinets/TP1D.png",
+                    "price": "652.00",
+                    "sku": "HDIEK-10159",
+                    "measurements": {
+                        "minW": "53.34",
+                        "maxW": "91.44",
+                        "inc_dec_W": "3",
+                        "minH": "213.36",
+                        "maxH": "213.36",
+                        "inc_dec_H": "0",
+                        "minD": "60.96",
+                        "maxD": "60.96",
+                        "inc_dec_D": "0"
+                    },
+                    "xpos": 472.50698723357954,
+                    "ypos": 106.69000000000001,
+                    "zpos": -192.51999999999998,
+                    "rotation": 0,
+                    "scale_x": 1.1177796963930962,
+                    "scale_y": 1.929654785699428,
+                    "scale_z": 1.8490657607376857,
+                    "resizable": true,
+                    "fixed": false,
+                    "textureUrl": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg",
+                    "textureName": "Wave Blue",
+                    "uom": "EA",
+                    "labor_cost": "0.00",
+                    "material_cost": "407.50",
+                    "door_config": {
+                        "colors": {
+                            "id": "8",
+                            "color_name": "Wave Blue",
+                            "color_like": "1001, 1002, 1003, 1004, 1005",
+                            "image_path": "wave_blue.jpg",
+                            "sort_by": "8",
+                            "idx": 8,
+                            "pattern_path": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg"
+                        },
+                        "doors": {
+                            "id": "3",
+                            "prod_id": "1003",
+                            "prod_name": "Barnsley Square",
+                            "short_desc": "Barnsley Square",
+                            "long_desc": "Barnsley Square 1PC RTF",
+                            "mat_id": "1",
+                            "image_path": "Barnsley_A6001.jpg",
+                            "dr_front_has": "[{\"name\":\"Barnsley Slab-A6000\",\"image_path\":\"Barnsley_A6000.jpg\"},{\"name\":\"Barnsley Routed-A6005\",\"image_path\":\"Barnsley_A6005.jpg\"}]",
+                            "status": "1",
+                            "sort_by": "3",
+                            "idx": 0
+                        },
+                        "material": {
+                            "id": "1",
+                            "mat_name": "Laminate",
+                            "mat_type": "1",
+                            "image_path": "",
+                            "status": "1",
+                            "idx": 0
+                        },
+                        "drawer": {
+                            "name": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "handle_fin": {
+                            "id": "8",
+                            "item_id": "108",
+                            "item_name": "Bronze",
+                            "image_path": "bronze.jpg",
+                            "status": "1",
+                            "sort_by": "8",
+                            "idx": 0
+                        },
+                        "handle_col": {
+                            "id": "52",
+                            "pull_id": "108",
+                            "sku": "HDIS-EK-PULL-352",
+                            "pull_name": "Bronze - 000212",
+                            "image_path": "_0000_000212.jpg",
+                            "short_desc": "Bronze - 000212",
+                            "model_no": "P33747C-VBR-CP",
+                            "item_type": "knobs",
+                            "status": "1",
+                            "sort_by": "52",
+                            "idx": 0
+                        },
+                        "corbels": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "moldings": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "valances": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "floating_shelf": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "misc_item": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "hinges": {},
+                        "drawer_slides": {}
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Add Ons",
+            "items": [
+                {
+                    "item_name": "Filler",
+                    "item_type": 2,
+                    "model_url": "assets/models/add-ons/fillers.js",
+                    "def_sizes": {
+                        "width": 5.08,
+                        "height": 87.63,
+                        "depth": 55.88
+                    },
+                    "image": "images/models/thumbnails/addons/filler.jpg",
+                    "price": "637.50",
+                    "sku": "HDIEK-10202",
+                    "measurements": {
+                        "minW": "2.54",
+                        "maxW": "7.62",
+                        "inc_dec_W": "1",
+                        "minH": "7.62",
+                        "maxH": "87.63",
+                        "inc_dec_H": "1",
+                        "minD": "2.54",
+                        "maxD": "60.96",
+                        "inc_dec_D": "1"
+                    },
+                    "xpos": 437.57600647298193,
+                    "ypos": 44.815,
+                    "zpos": -195.06,
+                    "rotation": 0,
+                    "scale_x": 3.200000000000046,
+                    "scale_y": 1.002287544321171,
+                    "scale_z": 0.9166666666666671,
+                    "resizable": true,
+                    "fixed": false,
+                    "textureUrl": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg",
+                    "textureName": "Wave Blue",
+                    "uom": "EA",
+                    "labor_cost": "75.00",
+                    "material_cost": "50.00",
+                    "door_config": {
+                        "colors": {
+                            "id": "8",
+                            "color_name": "Wave Blue",
+                            "color_like": "1001, 1002, 1003, 1004, 1005",
+                            "image_path": "wave_blue.jpg",
+                            "sort_by": "8",
+                            "idx": 8,
+                            "pattern_path": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg"
+                        },
+                        "doors": {
+                            "id": "3",
+                            "prod_id": "1003",
+                            "prod_name": "Barnsley Square",
+                            "short_desc": "Barnsley Square",
+                            "long_desc": "Barnsley Square 1PC RTF",
+                            "mat_id": "1",
+                            "image_path": "Barnsley_A6001.jpg",
+                            "dr_front_has": "[{\"name\":\"Barnsley Slab-A6000\",\"image_path\":\"Barnsley_A6000.jpg\"},{\"name\":\"Barnsley Routed-A6005\",\"image_path\":\"Barnsley_A6005.jpg\"}]",
+                            "status": "1",
+                            "sort_by": "3",
+                            "idx": 0
+                        },
+                        "material": {
+                            "id": "1",
+                            "mat_name": "Laminate",
+                            "mat_type": "1",
+                            "image_path": "",
+                            "status": "1",
+                            "idx": 0
+                        },
+                        "drawer": {
+                            "name": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "handle_fin": {
+                            "id": "8",
+                            "item_id": "108",
+                            "item_name": "Bronze",
+                            "image_path": "bronze.jpg",
+                            "status": "1",
+                            "sort_by": "8",
+                            "idx": 0
+                        },
+                        "handle_col": {
+                            "id": "52",
+                            "pull_id": "108",
+                            "sku": "HDIS-EK-PULL-352",
+                            "pull_name": "Bronze - 000212",
+                            "image_path": "_0000_000212.jpg",
+                            "short_desc": "Bronze - 000212",
+                            "model_no": "P33747C-VBR-CP",
+                            "item_type": "knobs",
+                            "status": "1",
+                            "sort_by": "52",
+                            "idx": 0
+                        },
+                        "corbels": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "moldings": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "valances": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "floating_shelf": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "misc_item": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "hinges": {},
+                        "drawer_slides": {}
+                    }
+                },
+                {
+                    "item_name": "Filler",
+                    "item_type": 2,
+                    "model_url": "assets/models/add-ons/fillers.js",
+                    "def_sizes": {
+                        "width": 5.08,
+                        "height": 87.63000000000001,
+                        "depth": 55.88
+                    },
+                    "image": "images/models/thumbnails/addons/filler.jpg",
+                    "price": "637.50",
+                    "sku": "HDIEK-10202",
+                    "measurements": {
+                        "minW": "2.54",
+                        "maxW": "7.62",
+                        "inc_dec_W": "1",
+                        "minH": "7.62",
+                        "maxH": "87.63",
+                        "inc_dec_H": "1",
+                        "minD": "2.54",
+                        "maxD": "60.96",
+                        "inc_dec_D": "1"
+                    },
+                    "xpos": 442.68100647298195,
+                    "ypos": 44.815000000000005,
+                    "zpos": -195.06,
+                    "rotation": 0,
+                    "scale_x": 3.200000000000046,
+                    "scale_y": 1.0022875443211712,
+                    "scale_z": 0.916666666666667,
+                    "resizable": true,
+                    "fixed": false,
+                    "textureUrl": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg",
+                    "textureName": "Wave Blue",
+                    "uom": "EA",
+                    "labor_cost": "75.00",
+                    "material_cost": "50.00",
+                    "door_config": {
+                        "colors": {
+                            "id": "8",
+                            "color_name": "Wave Blue",
+                            "color_like": "1001, 1002, 1003, 1004, 1005",
+                            "image_path": "wave_blue.jpg",
+                            "sort_by": "8",
+                            "idx": 8,
+                            "pattern_path": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg"
+                        },
+                        "doors": {
+                            "id": "3",
+                            "prod_id": "1003",
+                            "prod_name": "Barnsley Square",
+                            "short_desc": "Barnsley Square",
+                            "long_desc": "Barnsley Square 1PC RTF",
+                            "mat_id": "1",
+                            "image_path": "Barnsley_A6001.jpg",
+                            "dr_front_has": "[{\"name\":\"Barnsley Slab-A6000\",\"image_path\":\"Barnsley_A6000.jpg\"},{\"name\":\"Barnsley Routed-A6005\",\"image_path\":\"Barnsley_A6005.jpg\"}]",
+                            "status": "1",
+                            "sort_by": "3",
+                            "idx": 0
+                        },
+                        "material": {
+                            "id": "1",
+                            "mat_name": "Laminate",
+                            "mat_type": "1",
+                            "image_path": "",
+                            "status": "1",
+                            "idx": 0
+                        },
+                        "drawer": {
+                            "name": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "handle_fin": {
+                            "id": "8",
+                            "item_id": "108",
+                            "item_name": "Bronze",
+                            "image_path": "bronze.jpg",
+                            "status": "1",
+                            "sort_by": "8",
+                            "idx": 0
+                        },
+                        "handle_col": {
+                            "id": "52",
+                            "pull_id": "108",
+                            "sku": "HDIS-EK-PULL-352",
+                            "pull_name": "Bronze - 000212",
+                            "image_path": "_0000_000212.jpg",
+                            "short_desc": "Bronze - 000212",
+                            "model_no": "P33747C-VBR-CP",
+                            "item_type": "knobs",
+                            "status": "1",
+                            "sort_by": "52",
+                            "idx": 0
+                        },
+                        "corbels": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "moldings": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "valances": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "floating_shelf": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "misc_item": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "hinges": {},
+                        "drawer_slides": {}
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Wall Cabinets",
+            "items": [
+                {
+                    "item_name": "W",
+                    "item_type": 2,
+                    "model_url": "assets/models/cabinets/wall/w.js",
+                    "def_sizes": {
+                        "width": 60.959999999999994,
+                        "height": 91.44,
+                        "depth": 30.48
+                    },
+                    "image": "images/models/thumbnails/cabinets/W.png",
+                    "price": "216.00",
+                    "sku": "HDIEK-10102",
+                    "measurements": {
+                        "minW": "60.96",
+                        "maxW": "91.44",
+                        "inc_dec_W": "3",
+                        "minH": "76.2",
+                        "maxH": "106.68",
+                        "inc_dec_H": "6",
+                        "minD": "30.48",
+                        "maxD": "30.48",
+                        "inc_dec_D": "0"
+                    },
+                    "xpos": 128.80136260986328,
+                    "ypos": 183,
+                    "zpos": -207.76,
+                    "rotation": 0,
+                    "scale_x": 0.6416842105263157,
+                    "scale_y": 1.1420040154729558,
+                    "scale_z": 0.9058541717437696,
+                    "resizable": true,
+                    "fixed": false,
+                    "textureUrl": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg",
+                    "textureName": "Wave Blue",
+                    "uom": "EA",
+                    "labor_cost": "0.00",
+                    "material_cost": "135.00",
+                    "door_config": {
+                        "colors": {
+                            "id": "8",
+                            "color_name": "Wave Blue",
+                            "color_like": "1001, 1002, 1003, 1004, 1005",
+                            "image_path": "wave_blue.jpg",
+                            "sort_by": "8",
+                            "idx": 8,
+                            "pattern_path": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg"
+                        },
+                        "doors": {
+                            "id": "3",
+                            "prod_id": "1003",
+                            "prod_name": "Barnsley Square",
+                            "short_desc": "Barnsley Square",
+                            "long_desc": "Barnsley Square 1PC RTF",
+                            "mat_id": "1",
+                            "image_path": "Barnsley_A6001.jpg",
+                            "dr_front_has": "[{\"name\":\"Barnsley Slab-A6000\",\"image_path\":\"Barnsley_A6000.jpg\"},{\"name\":\"Barnsley Routed-A6005\",\"image_path\":\"Barnsley_A6005.jpg\"}]",
+                            "status": "1",
+                            "sort_by": "3",
+                            "idx": 0
+                        },
+                        "material": {
+                            "id": "1",
+                            "mat_name": "Laminate",
+                            "mat_type": "1",
+                            "image_path": "",
+                            "status": "1",
+                            "idx": 0
+                        },
+                        "drawer": {
+                            "name": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "handle_fin": {
+                            "id": "8",
+                            "item_id": "108",
+                            "item_name": "Bronze",
+                            "image_path": "bronze.jpg",
+                            "status": "1",
+                            "sort_by": "8",
+                            "idx": 0
+                        },
+                        "handle_col": {
+                            "id": "52",
+                            "pull_id": "108",
+                            "sku": "HDIS-EK-PULL-352",
+                            "pull_name": "Bronze - 000212",
+                            "image_path": "_0000_000212.jpg",
+                            "short_desc": "Bronze - 000212",
+                            "model_no": "P33747C-VBR-CP",
+                            "item_type": "knobs",
+                            "status": "1",
+                            "sort_by": "52",
+                            "idx": 0
+                        },
+                        "corbels": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "moldings": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "valances": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "floating_shelf": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "misc_item": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "hinges": {},
+                        "drawer_slides": {}
+                    }
+                },
+                {
+                    "item_name": "WLR",
+                    "item_type": 2,
+                    "model_url": "assets/models/cabinets/wall/wlr.js",
+                    "def_sizes": {
+                        "width": 30.48,
+                        "height": 76.2,
+                        "depth": 30.48
+                    },
+                    "image": "images/models/thumbnails/cabinets/WLR.png",
+                    "price": "141.00",
+                    "sku": "HDIEK-10126",
+                    "measurements": {
+                        "minW": "30.48",
+                        "maxW": "60.96",
+                        "inc_dec_W": "3",
+                        "minH": "76.2",
+                        "maxH": "106.68",
+                        "inc_dec_H": "6",
+                        "minD": "30.48",
+                        "maxD": "30.48",
+                        "inc_dec_D": "0"
+                    },
+                    "xpos": 175.49644828387449,
+                    "ypos": 175.18940093784624,
+                    "zpos": -207.76,
+                    "rotation": 0,
+                    "scale_x": 0.5456859834969376,
+                    "scale_y": 0.9516700128941299,
+                    "scale_z": 0.9058541717437696,
+                    "resizable": true,
+                    "fixed": false,
+                    "textureUrl": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg",
+                    "textureName": "Wave Blue",
+                    "uom": "EA",
+                    "labor_cost": "0.00",
+                    "material_cost": "88.12",
+                    "door_config": {
+                        "colors": {
+                            "id": "8",
+                            "color_name": "Wave Blue",
+                            "color_like": "1001, 1002, 1003, 1004, 1005",
+                            "image_path": "wave_blue.jpg",
+                            "sort_by": "8",
+                            "idx": 8,
+                            "pattern_path": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg"
+                        },
+                        "doors": {
+                            "id": "3",
+                            "prod_id": "1003",
+                            "prod_name": "Barnsley Square",
+                            "short_desc": "Barnsley Square",
+                            "long_desc": "Barnsley Square 1PC RTF",
+                            "mat_id": "1",
+                            "image_path": "Barnsley_A6001.jpg",
+                            "dr_front_has": "[{\"name\":\"Barnsley Slab-A6000\",\"image_path\":\"Barnsley_A6000.jpg\"},{\"name\":\"Barnsley Routed-A6005\",\"image_path\":\"Barnsley_A6005.jpg\"}]",
+                            "status": "1",
+                            "sort_by": "3",
+                            "idx": 0
+                        },
+                        "material": {
+                            "id": "1",
+                            "mat_name": "Laminate",
+                            "mat_type": "1",
+                            "image_path": "",
+                            "status": "1",
+                            "idx": 0
+                        },
+                        "drawer": {
+                            "name": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "handle_fin": {
+                            "id": "8",
+                            "item_id": "108",
+                            "item_name": "Bronze",
+                            "image_path": "bronze.jpg",
+                            "status": "1",
+                            "sort_by": "8",
+                            "idx": 0
+                        },
+                        "handle_col": {
+                            "id": "52",
+                            "pull_id": "108",
+                            "sku": "HDIS-EK-PULL-352",
+                            "pull_name": "Bronze - 000212",
+                            "image_path": "_0000_000212.jpg",
+                            "short_desc": "Bronze - 000212",
+                            "model_no": "P33747C-VBR-CP",
+                            "item_type": "knobs",
+                            "status": "1",
+                            "sort_by": "52",
+                            "idx": 0
+                        },
+                        "corbels": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "moldings": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "valances": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "floating_shelf": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "misc_item": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "hinges": {},
+                        "drawer_slides": {}
+                    }
+                },
+                {
+                    "item_name": "WLR",
+                    "item_type": 2,
+                    "model_url": "assets/models/cabinets/wall/wlr.js",
+                    "def_sizes": {
+                        "width": 30.48,
+                        "height": 76.2,
+                        "depth": 30.48
+                    },
+                    "image": "images/models/thumbnails/cabinets/WLR.png",
+                    "price": "141.00",
+                    "sku": "HDIEK-10126",
+                    "measurements": {
+                        "minW": "30.48",
+                        "maxW": "60.96",
+                        "inc_dec_W": "3",
+                        "minH": "76.2",
+                        "maxH": "106.68",
+                        "inc_dec_H": "6",
+                        "minD": "30.48",
+                        "maxD": "30.48",
+                        "inc_dec_D": "0"
+                    },
+                    "xpos": 206.0042170446529,
+                    "ypos": 175.18376394406002,
+                    "zpos": -207.76,
+                    "rotation": 0,
+                    "scale_x": 0.5456859834969376,
+                    "scale_y": 0.9516700128941299,
+                    "scale_z": 0.9058541717437696,
+                    "resizable": true,
+                    "fixed": false,
+                    "textureUrl": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg",
+                    "textureName": "Wave Blue",
+                    "uom": "EA",
+                    "labor_cost": "0.00",
+                    "material_cost": "88.12",
+                    "door_config": {
+                        "colors": {
+                            "id": "8",
+                            "color_name": "Wave Blue",
+                            "color_like": "1001, 1002, 1003, 1004, 1005",
+                            "image_path": "wave_blue.jpg",
+                            "sort_by": "8",
+                            "idx": 8,
+                            "pattern_path": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg"
+                        },
+                        "doors": {
+                            "id": "3",
+                            "prod_id": "1003",
+                            "prod_name": "Barnsley Square",
+                            "short_desc": "Barnsley Square",
+                            "long_desc": "Barnsley Square 1PC RTF",
+                            "mat_id": "1",
+                            "image_path": "Barnsley_A6001.jpg",
+                            "dr_front_has": "[{\"name\":\"Barnsley Slab-A6000\",\"image_path\":\"Barnsley_A6000.jpg\"},{\"name\":\"Barnsley Routed-A6005\",\"image_path\":\"Barnsley_A6005.jpg\"}]",
+                            "status": "1",
+                            "sort_by": "3",
+                            "idx": 0
+                        },
+                        "material": {
+                            "id": "1",
+                            "mat_name": "Laminate",
+                            "mat_type": "1",
+                            "image_path": "",
+                            "status": "1",
+                            "idx": 0
+                        },
+                        "drawer": {
+                            "name": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "handle_fin": {
+                            "id": "8",
+                            "item_id": "108",
+                            "item_name": "Bronze",
+                            "image_path": "bronze.jpg",
+                            "status": "1",
+                            "sort_by": "8",
+                            "idx": 0
+                        },
+                        "handle_col": {
+                            "id": "52",
+                            "pull_id": "108",
+                            "sku": "HDIS-EK-PULL-352",
+                            "pull_name": "Bronze - 000212",
+                            "image_path": "_0000_000212.jpg",
+                            "short_desc": "Bronze - 000212",
+                            "model_no": "P33747C-VBR-CP",
+                            "item_type": "knobs",
+                            "status": "1",
+                            "sort_by": "52",
+                            "idx": 0
+                        },
+                        "corbels": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "moldings": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "valances": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "floating_shelf": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "misc_item": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "hinges": {},
+                        "drawer_slides": {}
+                    }
+                },
+                {
+                    "item_name": "WLR",
+                    "item_type": 2,
+                    "model_url": "assets/models/cabinets/wall/wlr.js",
+                    "def_sizes": {
+                        "width": 30.479999999999997,
+                        "height": 76.2,
+                        "depth": 30.48
+                    },
+                    "image": "images/models/thumbnails/cabinets/WLR.png",
+                    "price": "141.00",
+                    "sku": "HDIEK-10126",
+                    "measurements": {
+                        "minW": "30.48",
+                        "maxW": "60.96",
+                        "inc_dec_W": "3",
+                        "minH": "76.2",
+                        "maxH": "106.68",
+                        "inc_dec_H": "6",
+                        "minD": "30.48",
+                        "maxD": "30.48",
+                        "inc_dec_D": "0"
+                    },
+                    "xpos": 315.1416442782005,
+                    "ypos": 174.10503092052963,
+                    "zpos": -207.76,
+                    "rotation": 0,
+                    "scale_x": 0.5456859834969379,
+                    "scale_y": 0.9516700128941299,
+                    "scale_z": 0.9058541717437696,
+                    "resizable": true,
+                    "fixed": false,
+                    "textureUrl": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg",
+                    "textureName": "Wave Blue",
+                    "uom": "EA",
+                    "labor_cost": "0.00",
+                    "material_cost": "88.12",
+                    "door_config": {
+                        "colors": {
+                            "id": "8",
+                            "color_name": "Wave Blue",
+                            "color_like": "1001, 1002, 1003, 1004, 1005",
+                            "image_path": "wave_blue.jpg",
+                            "sort_by": "8",
+                            "idx": 8,
+                            "pattern_path": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg"
+                        },
+                        "doors": {
+                            "id": "3",
+                            "prod_id": "1003",
+                            "prod_name": "Barnsley Square",
+                            "short_desc": "Barnsley Square",
+                            "long_desc": "Barnsley Square 1PC RTF",
+                            "mat_id": "1",
+                            "image_path": "Barnsley_A6001.jpg",
+                            "dr_front_has": "[{\"name\":\"Barnsley Slab-A6000\",\"image_path\":\"Barnsley_A6000.jpg\"},{\"name\":\"Barnsley Routed-A6005\",\"image_path\":\"Barnsley_A6005.jpg\"}]",
+                            "status": "1",
+                            "sort_by": "3",
+                            "idx": 0
+                        },
+                        "material": {
+                            "id": "1",
+                            "mat_name": "Laminate",
+                            "mat_type": "1",
+                            "image_path": "",
+                            "status": "1",
+                            "idx": 0
+                        },
+                        "drawer": {
+                            "name": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "handle_fin": {
+                            "id": "8",
+                            "item_id": "108",
+                            "item_name": "Bronze",
+                            "image_path": "bronze.jpg",
+                            "status": "1",
+                            "sort_by": "8",
+                            "idx": 0
+                        },
+                        "handle_col": {
+                            "id": "52",
+                            "pull_id": "108",
+                            "sku": "HDIS-EK-PULL-352",
+                            "pull_name": "Bronze - 000212",
+                            "image_path": "_0000_000212.jpg",
+                            "short_desc": "Bronze - 000212",
+                            "model_no": "P33747C-VBR-CP",
+                            "item_type": "knobs",
+                            "status": "1",
+                            "sort_by": "52",
+                            "idx": 0
+                        },
+                        "corbels": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "moldings": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "valances": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "floating_shelf": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "misc_item": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "hinges": {},
+                        "drawer_slides": {}
+                    }
+                },
+                {
+                    "item_name": "WLR",
+                    "item_type": 2,
+                    "model_url": "assets/models/cabinets/wall/wlr.js",
+                    "def_sizes": {
+                        "width": 30.479999999999997,
+                        "height": 76.2,
+                        "depth": 30.48
+                    },
+                    "image": "images/models/thumbnails/cabinets/WLR.png",
+                    "price": "141.00",
+                    "sku": "HDIEK-10126",
+                    "measurements": {
+                        "minW": "30.48",
+                        "maxW": "60.96",
+                        "inc_dec_W": "3",
+                        "minH": "76.2",
+                        "maxH": "106.68",
+                        "inc_dec_H": "6",
+                        "minD": "30.48",
+                        "maxD": "30.48",
+                        "inc_dec_D": "0"
+                    },
+                    "xpos": 345.6466442782005,
+                    "ypos": 174.10503092052963,
+                    "zpos": -207.76,
+                    "rotation": 0,
+                    "scale_x": 0.5456859834969379,
+                    "scale_y": 0.9516700128941299,
+                    "scale_z": 0.9058541717437696,
+                    "resizable": true,
+                    "fixed": false,
+                    "textureUrl": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg",
+                    "textureName": "Wave Blue",
+                    "uom": "EA",
+                    "labor_cost": "0.00",
+                    "material_cost": "88.12",
+                    "door_config": {
+                        "colors": {
+                            "id": "8",
+                            "color_name": "Wave Blue",
+                            "color_like": "1001, 1002, 1003, 1004, 1005",
+                            "image_path": "wave_blue.jpg",
+                            "sort_by": "8",
+                            "idx": 8,
+                            "pattern_path": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg"
+                        },
+                        "doors": {
+                            "id": "3",
+                            "prod_id": "1003",
+                            "prod_name": "Barnsley Square",
+                            "short_desc": "Barnsley Square",
+                            "long_desc": "Barnsley Square 1PC RTF",
+                            "mat_id": "1",
+                            "image_path": "Barnsley_A6001.jpg",
+                            "dr_front_has": "[{\"name\":\"Barnsley Slab-A6000\",\"image_path\":\"Barnsley_A6000.jpg\"},{\"name\":\"Barnsley Routed-A6005\",\"image_path\":\"Barnsley_A6005.jpg\"}]",
+                            "status": "1",
+                            "sort_by": "3",
+                            "idx": 0
+                        },
+                        "material": {
+                            "id": "1",
+                            "mat_name": "Laminate",
+                            "mat_type": "1",
+                            "image_path": "",
+                            "status": "1",
+                            "idx": 0
+                        },
+                        "drawer": {
+                            "name": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "handle_fin": {
+                            "id": "8",
+                            "item_id": "108",
+                            "item_name": "Bronze",
+                            "image_path": "bronze.jpg",
+                            "status": "1",
+                            "sort_by": "8",
+                            "idx": 0
+                        },
+                        "handle_col": {
+                            "id": "52",
+                            "pull_id": "108",
+                            "sku": "HDIS-EK-PULL-352",
+                            "pull_name": "Bronze - 000212",
+                            "image_path": "_0000_000212.jpg",
+                            "short_desc": "Bronze - 000212",
+                            "model_no": "P33747C-VBR-CP",
+                            "item_type": "knobs",
+                            "status": "1",
+                            "sort_by": "52",
+                            "idx": 0
+                        },
+                        "corbels": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "moldings": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "valances": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "floating_shelf": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "misc_item": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "hinges": {},
+                        "drawer_slides": {}
+                    }
+                },
+                {
+                    "item_name": "W",
+                    "item_type": 2,
+                    "model_url": "assets/models/cabinets/wall/w.js",
+                    "def_sizes": {
+                        "width": 83.82000000000001,
+                        "height": 91.44,
+                        "depth": 30.48
+                    },
+                    "image": "images/models/thumbnails/cabinets/W.png",
+                    "price": "216.00",
+                    "sku": "HDIEK-10102",
+                    "measurements": {
+                        "minW": "60.96",
+                        "maxW": "91.44",
+                        "inc_dec_W": "3",
+                        "minH": "76.2",
+                        "maxH": "106.68",
+                        "inc_dec_H": "6",
+                        "minD": "30.48",
+                        "maxD": "30.48",
+                        "inc_dec_D": "0"
+                    },
+                    "xpos": 402.8281393158295,
+                    "ypos": 181.8803250904851,
+                    "zpos": -207.76,
+                    "rotation": 0,
+                    "scale_x": 0.8823157894736843,
+                    "scale_y": 1.1420040154729558,
+                    "scale_z": 0.9058541717437696,
+                    "resizable": true,
+                    "fixed": false,
+                    "textureUrl": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg",
+                    "textureName": "Wave Blue",
+                    "uom": "EA",
+                    "labor_cost": "0.00",
+                    "material_cost": "135.00",
+                    "door_config": {
+                        "colors": {
+                            "id": "8",
+                            "color_name": "Wave Blue",
+                            "color_like": "1001, 1002, 1003, 1004, 1005",
+                            "image_path": "wave_blue.jpg",
+                            "sort_by": "8",
+                            "idx": 8,
+                            "pattern_path": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg"
+                        },
+                        "doors": {
+                            "id": "3",
+                            "prod_id": "1003",
+                            "prod_name": "Barnsley Square",
+                            "short_desc": "Barnsley Square",
+                            "long_desc": "Barnsley Square 1PC RTF",
+                            "mat_id": "1",
+                            "image_path": "Barnsley_A6001.jpg",
+                            "dr_front_has": "[{\"name\":\"Barnsley Slab-A6000\",\"image_path\":\"Barnsley_A6000.jpg\"},{\"name\":\"Barnsley Routed-A6005\",\"image_path\":\"Barnsley_A6005.jpg\"}]",
+                            "status": "1",
+                            "sort_by": "3",
+                            "idx": 0
+                        },
+                        "material": {
+                            "id": "1",
+                            "mat_name": "Laminate",
+                            "mat_type": "1",
+                            "image_path": "",
+                            "status": "1",
+                            "idx": 0
+                        },
+                        "drawer": {
+                            "name": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "handle_fin": {
+                            "id": "8",
+                            "item_id": "108",
+                            "item_name": "Bronze",
+                            "image_path": "bronze.jpg",
+                            "status": "1",
+                            "sort_by": "8",
+                            "idx": 0
+                        },
+                        "handle_col": {
+                            "id": "52",
+                            "pull_id": "108",
+                            "sku": "HDIS-EK-PULL-352",
+                            "pull_name": "Bronze - 000212",
+                            "image_path": "_0000_000212.jpg",
+                            "short_desc": "Bronze - 000212",
+                            "model_no": "P33747C-VBR-CP",
+                            "item_type": "knobs",
+                            "status": "1",
+                            "sort_by": "52",
+                            "idx": 0
+                        },
+                        "corbels": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "moldings": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "valances": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "floating_shelf": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "misc_item": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "hinges": {},
+                        "drawer_slides": {}
+                    }
+                },
+                {
+                    "item_name": "W",
+                    "item_type": 2,
+                    "model_url": "assets/models/cabinets/wall/w.js",
+                    "def_sizes": {
+                        "width": 60.959999999999994,
+                        "height": 91.44,
+                        "depth": 30.48
+                    },
+                    "image": "images/models/thumbnails/cabinets/W.png",
+                    "price": "216.00",
+                    "sku": "HDIEK-10102",
+                    "measurements": {
+                        "minW": "60.96",
+                        "maxW": "91.44",
+                        "inc_dec_W": "3",
+                        "minH": "76.2",
+                        "maxH": "106.68",
+                        "inc_dec_H": "6",
+                        "minD": "30.48",
+                        "maxD": "30.48",
+                        "inc_dec_D": "0"
+                    },
+                    "xpos": 20.24000000000001,
+                    "ypos": 183,
+                    "zpos": 111.41999389648439,
+                    "rotation": 1.5707963267948966,
+                    "scale_x": 0.6416842105263157,
+                    "scale_y": 1.1420040154729558,
+                    "scale_z": 0.9058541717437696,
+                    "resizable": true,
+                    "fixed": false,
+                    "textureUrl": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg",
+                    "textureName": "Wave Blue",
+                    "uom": "EA",
+                    "labor_cost": "0.00",
+                    "material_cost": "135.00",
+                    "door_config": {
+                        "colors": {
+                            "id": "8",
+                            "color_name": "Wave Blue",
+                            "color_like": "1001, 1002, 1003, 1004, 1005",
+                            "image_path": "wave_blue.jpg",
+                            "sort_by": "8",
+                            "idx": 8,
+                            "pattern_path": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg"
+                        },
+                        "doors": {
+                            "id": "3",
+                            "prod_id": "1003",
+                            "prod_name": "Barnsley Square",
+                            "short_desc": "Barnsley Square",
+                            "long_desc": "Barnsley Square 1PC RTF",
+                            "mat_id": "1",
+                            "image_path": "Barnsley_A6001.jpg",
+                            "dr_front_has": "[{\"name\":\"Barnsley Slab-A6000\",\"image_path\":\"Barnsley_A6000.jpg\"},{\"name\":\"Barnsley Routed-A6005\",\"image_path\":\"Barnsley_A6005.jpg\"}]",
+                            "status": "1",
+                            "sort_by": "3",
+                            "idx": 0
+                        },
+                        "material": {
+                            "id": "1",
+                            "mat_name": "Laminate",
+                            "mat_type": "1",
+                            "image_path": "",
+                            "status": "1",
+                            "idx": 0
+                        },
+                        "drawer": {
+                            "name": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "handle_fin": {
+                            "id": "8",
+                            "item_id": "108",
+                            "item_name": "Bronze",
+                            "image_path": "bronze.jpg",
+                            "status": "1",
+                            "sort_by": "8",
+                            "idx": 0
+                        },
+                        "handle_col": {
+                            "id": "52",
+                            "pull_id": "108",
+                            "sku": "HDIS-EK-PULL-352",
+                            "pull_name": "Bronze - 000212",
+                            "image_path": "_0000_000212.jpg",
+                            "short_desc": "Bronze - 000212",
+                            "model_no": "P33747C-VBR-CP",
+                            "item_type": "knobs",
+                            "status": "1",
+                            "sort_by": "52",
+                            "idx": 0
+                        },
+                        "corbels": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "moldings": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "valances": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "floating_shelf": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "misc_item": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "hinges": {},
+                        "drawer_slides": {}
+                    }
+                },
+                {
+                    "item_name": "W",
+                    "item_type": 2,
+                    "model_url": "assets/models/cabinets/wall/w.js",
+                    "def_sizes": {
+                        "width": 60.959999999999994,
+                        "height": 91.44,
+                        "depth": 30.48
+                    },
+                    "image": "images/models/thumbnails/cabinets/W.png",
+                    "price": "216.00",
+                    "sku": "HDIEK-10102",
+                    "measurements": {
+                        "minW": "60.96",
+                        "maxW": "91.44",
+                        "inc_dec_W": "3",
+                        "minH": "76.2",
+                        "maxH": "106.68",
+                        "inc_dec_H": "6",
+                        "minD": "30.48",
+                        "maxD": "30.48",
+                        "inc_dec_D": "0"
+                    },
+                    "xpos": 20.240000000000006,
+                    "ypos": 183,
+                    "zpos": 50.4349938964844,
+                    "rotation": 1.5707963267948966,
+                    "scale_x": 0.6416842105263157,
+                    "scale_y": 1.1420040154729558,
+                    "scale_z": 0.9058541717437691,
+                    "resizable": true,
+                    "fixed": false,
+                    "textureUrl": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg",
+                    "textureName": "Wave Blue",
+                    "uom": "EA",
+                    "labor_cost": "0.00",
+                    "material_cost": "135.00",
+                    "door_config": {
+                        "colors": {
+                            "id": "8",
+                            "color_name": "Wave Blue",
+                            "color_like": "1001, 1002, 1003, 1004, 1005",
+                            "image_path": "wave_blue.jpg",
+                            "sort_by": "8",
+                            "idx": 8,
+                            "pattern_path": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg"
+                        },
+                        "doors": {
+                            "id": "3",
+                            "prod_id": "1003",
+                            "prod_name": "Barnsley Square",
+                            "short_desc": "Barnsley Square",
+                            "long_desc": "Barnsley Square 1PC RTF",
+                            "mat_id": "1",
+                            "image_path": "Barnsley_A6001.jpg",
+                            "dr_front_has": "[{\"name\":\"Barnsley Slab-A6000\",\"image_path\":\"Barnsley_A6000.jpg\"},{\"name\":\"Barnsley Routed-A6005\",\"image_path\":\"Barnsley_A6005.jpg\"}]",
+                            "status": "1",
+                            "sort_by": "3",
+                            "idx": 0
+                        },
+                        "material": {
+                            "id": "1",
+                            "mat_name": "Laminate",
+                            "mat_type": "1",
+                            "image_path": "",
+                            "status": "1",
+                            "idx": 0
+                        },
+                        "drawer": {
+                            "name": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "handle_fin": {
+                            "id": "8",
+                            "item_id": "108",
+                            "item_name": "Bronze",
+                            "image_path": "bronze.jpg",
+                            "status": "1",
+                            "sort_by": "8",
+                            "idx": 0
+                        },
+                        "handle_col": {
+                            "id": "52",
+                            "pull_id": "108",
+                            "sku": "HDIS-EK-PULL-352",
+                            "pull_name": "Bronze - 000212",
+                            "image_path": "_0000_000212.jpg",
+                            "short_desc": "Bronze - 000212",
+                            "model_no": "P33747C-VBR-CP",
+                            "item_type": "knobs",
+                            "status": "1",
+                            "sort_by": "52",
+                            "idx": 0
+                        },
+                        "corbels": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "moldings": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "valances": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "floating_shelf": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "misc_item": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "hinges": {},
+                        "drawer_slides": {}
+                    }
+                },
+                {
+                    "item_name": "W",
+                    "item_type": 2,
+                    "model_url": "assets/models/cabinets/wall/w.js",
+                    "def_sizes": {
+                        "width": 60.959999999999994,
+                        "height": 91.44,
+                        "depth": 30.48
+                    },
+                    "image": "images/models/thumbnails/cabinets/W.png",
+                    "price": "216.00",
+                    "sku": "HDIEK-10102",
+                    "measurements": {
+                        "minW": "60.96",
+                        "maxW": "91.44",
+                        "inc_dec_W": "3",
+                        "minH": "76.2",
+                        "maxH": "106.68",
+                        "inc_dec_H": "6",
+                        "minD": "30.48",
+                        "maxD": "30.48",
+                        "inc_dec_D": "0"
+                    },
+                    "xpos": 20.24000000000001,
+                    "ypos": 183,
+                    "zpos": -10.550006103515614,
+                    "rotation": 1.5707963267948966,
+                    "scale_x": 0.6416842105263157,
+                    "scale_y": 1.1420040154729558,
+                    "scale_z": 0.9058541717437691,
+                    "resizable": true,
+                    "fixed": false,
+                    "textureUrl": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg",
+                    "textureName": "Wave Blue",
+                    "uom": "EA",
+                    "labor_cost": "0.00",
+                    "material_cost": "135.00",
+                    "door_config": {
+                        "colors": {
+                            "id": "8",
+                            "color_name": "Wave Blue",
+                            "color_like": "1001, 1002, 1003, 1004, 1005",
+                            "image_path": "wave_blue.jpg",
+                            "sort_by": "8",
+                            "idx": 8,
+                            "pattern_path": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg"
+                        },
+                        "doors": {
+                            "id": "3",
+                            "prod_id": "1003",
+                            "prod_name": "Barnsley Square",
+                            "short_desc": "Barnsley Square",
+                            "long_desc": "Barnsley Square 1PC RTF",
+                            "mat_id": "1",
+                            "image_path": "Barnsley_A6001.jpg",
+                            "dr_front_has": "[{\"name\":\"Barnsley Slab-A6000\",\"image_path\":\"Barnsley_A6000.jpg\"},{\"name\":\"Barnsley Routed-A6005\",\"image_path\":\"Barnsley_A6005.jpg\"}]",
+                            "status": "1",
+                            "sort_by": "3",
+                            "idx": 0
+                        },
+                        "material": {
+                            "id": "1",
+                            "mat_name": "Laminate",
+                            "mat_type": "1",
+                            "image_path": "",
+                            "status": "1",
+                            "idx": 0
+                        },
+                        "drawer": {
+                            "name": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "handle_fin": {
+                            "id": "8",
+                            "item_id": "108",
+                            "item_name": "Bronze",
+                            "image_path": "bronze.jpg",
+                            "status": "1",
+                            "sort_by": "8",
+                            "idx": 0
+                        },
+                        "handle_col": {
+                            "id": "52",
+                            "pull_id": "108",
+                            "sku": "HDIS-EK-PULL-352",
+                            "pull_name": "Bronze - 000212",
+                            "image_path": "_0000_000212.jpg",
+                            "short_desc": "Bronze - 000212",
+                            "model_no": "P33747C-VBR-CP",
+                            "item_type": "knobs",
+                            "status": "1",
+                            "sort_by": "52",
+                            "idx": 0
+                        },
+                        "corbels": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "moldings": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "valances": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "floating_shelf": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "misc_item": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "hinges": {},
+                        "drawer_slides": {}
+                    }
+                },
+                {
+                    "item_name": "W",
+                    "item_type": 2,
+                    "model_url": "assets/models/cabinets/wall/w.js",
+                    "def_sizes": {
+                        "width": 60.959999999999994,
+                        "height": 91.44,
+                        "depth": 30.48
+                    },
+                    "image": "images/models/thumbnails/cabinets/W.png",
+                    "price": "216.00",
+                    "sku": "HDIEK-10102",
+                    "measurements": {
+                        "minW": "60.96",
+                        "maxW": "91.44",
+                        "inc_dec_W": "3",
+                        "minH": "76.2",
+                        "maxH": "106.68",
+                        "inc_dec_H": "6",
+                        "minD": "30.48",
+                        "maxD": "30.48",
+                        "inc_dec_D": "0"
+                    },
+                    "xpos": 20.240000000000013,
+                    "ypos": 183,
+                    "zpos": -71.5350061035156,
+                    "rotation": 1.5707963267948966,
+                    "scale_x": 0.6416842105263157,
+                    "scale_y": 1.1420040154729558,
+                    "scale_z": 0.9058541717437691,
+                    "resizable": true,
+                    "fixed": false,
+                    "textureUrl": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg",
+                    "textureName": "Wave Blue",
+                    "uom": "EA",
+                    "labor_cost": "0.00",
+                    "material_cost": "135.00",
+                    "door_config": {
+                        "colors": {
+                            "id": "8",
+                            "color_name": "Wave Blue",
+                            "color_like": "1001, 1002, 1003, 1004, 1005",
+                            "image_path": "wave_blue.jpg",
+                            "sort_by": "8",
+                            "idx": 8,
+                            "pattern_path": "images/models/thumbnails/door_config/doors/color/wave_blue.jpg"
+                        },
+                        "doors": {
+                            "id": "3",
+                            "prod_id": "1003",
+                            "prod_name": "Barnsley Square",
+                            "short_desc": "Barnsley Square",
+                            "long_desc": "Barnsley Square 1PC RTF",
+                            "mat_id": "1",
+                            "image_path": "Barnsley_A6001.jpg",
+                            "dr_front_has": "[{\"name\":\"Barnsley Slab-A6000\",\"image_path\":\"Barnsley_A6000.jpg\"},{\"name\":\"Barnsley Routed-A6005\",\"image_path\":\"Barnsley_A6005.jpg\"}]",
+                            "status": "1",
+                            "sort_by": "3",
+                            "idx": 0
+                        },
+                        "material": {
+                            "id": "1",
+                            "mat_name": "Laminate",
+                            "mat_type": "1",
+                            "image_path": "",
+                            "status": "1",
+                            "idx": 0
+                        },
+                        "drawer": {
+                            "name": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "handle_fin": {
+                            "id": "8",
+                            "item_id": "108",
+                            "item_name": "Bronze",
+                            "image_path": "bronze.jpg",
+                            "status": "1",
+                            "sort_by": "8",
+                            "idx": 0
+                        },
+                        "handle_col": {
+                            "id": "52",
+                            "pull_id": "108",
+                            "sku": "HDIS-EK-PULL-352",
+                            "pull_name": "Bronze - 000212",
+                            "image_path": "_0000_000212.jpg",
+                            "short_desc": "Bronze - 000212",
+                            "model_no": "P33747C-VBR-CP",
+                            "item_type": "knobs",
+                            "status": "1",
+                            "sort_by": "52",
+                            "idx": 0
+                        },
+                        "corbels": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "moldings": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "valances": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "floating_shelf": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "misc_item": {
+                            "short_desc": "None",
+                            "image_path": "",
+                            "idx": 0
+                        },
+                        "hinges": {},
+                        "drawer_slides": {}
+                    }
+                }
+            ]
+        }
+    ]
+}

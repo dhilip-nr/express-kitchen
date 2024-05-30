@@ -1,0 +1,63 @@
+.order_filterhead {
+	padding:6px 20px;
+	border:1px solid #CCCCCC;
+	font-size:12px;
+	margin:10px auto 30px;
+	color:#555;
+	font-weight:bold;
+	background:#E4E4E4;
+	border-radius:3px;
+	width:825px;
+/*
+	width:88%;
+	min-width:825px;
+*/
+	display:block;
+}
+ul.order_filterhead > li{
+	display:inline-block;
+	padding:2px 4px;
+	margin:0 2px;
+	height:28px;
+	line-height:30px;
+	background:#fff;
+	border-radius:5px;
+}
+.order_filterhead > li >input, .order_filterhead > li > select{
+	border:solid 1px #ddd;
+	border:none;
+	background:#fff;
+	padding:3px;
+}
+li > input.tpinput{
+	width:80px;
+	background:#f4f4f4;
+}
+li > select#status_list{
+	margin:3px;
+}
+ul.order_filterhead > li:last-child{
+	padding:0;
+}
+li > input.orderfilter{
+	background: #F88421;
+    color: #fff;
+    cursor: pointer;
+    font-size: 10px;
+    height: 24px;
+    letter-spacing: 1px;
+    line-height: 28px;
+	width:30px;
+	height:30px;
+    text-transform: uppercase;
+	border-radius:5px;
+	padding:0;
+}
+
+#order_table tr:hover{
+	background:#eee;
+}
+
+a.flow_link{
+	font-weight:bold;
+}

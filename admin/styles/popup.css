@@ -1,0 +1,70 @@
+.shipping_info form {
+	display: block;
+	width: 445px;
+	height: auto;
+	margin: auto;
+	padding: 30px 40px 20px;
+	background: #eee;
+}
+.shipping_info h3{
+	font-size: 16px;
+	border-bottom: #ccc solid 1px;
+	text-align: center;
+	letter-spacing: 1px;
+	padding: 0 0 15px;
+    margin: 0 0 10px;
+}
+
+.shipping_info ul{
+	padding: 0;
+	margin: 0;
+}
+.shipping_info li{
+	display: block;
+	margin-bottom: 10px;
+	text-align: left;
+}
+.shipping_info label{
+	padding: 8px 0 3px;
+	display: block;
+	letter-spacing: 1px;
+	font-size: 12px;
+}
+
+.shipping_info button {
+	padding: 6px 12px;
+	letter-spacing: 1px;
+	background: #999;
+	color: #fff;
+	border: solid 1px;
+}
+.shipping_info button.act{
+	float: right;
+	background: #F88421;
+}
+
+.shipping_info .error{
+	box-shadow: 0 0 5px #f00;
+}
+
+.datepicker_holder{
+	background: url(../../images/actions/calendar.png) no-repeat top center;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 5px;
+	margin-left: -25px;
+	width: 20px;
+	height: 20px;
+	opacity: 0.5;
+}
+
+.req_field{
+	color: red;
+}
+
+label#error_msg{
+	width: 100%;
+	color: #F00;
+	padding: 5px 0;
+	text-align: center;
+}

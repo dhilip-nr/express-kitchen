@@ -1,0 +1,622 @@
+{
+	"floorplan": {
+		"corners": {
+			"56d9ebd1-91b2-875c-799d-54b3785fca1f": {
+				"x": 559,
+				"y": -228
+			},
+			"8f4a050d-e102-3c3f-5af9-3d9133555d76": {
+				"x": 0,
+				"y": -228
+			},
+			"4e312eca-6c4f-30d1-3d9a-a19a9d1ee359": {
+				"x": 0,
+				"y": 147.9
+			},
+			"254656bf-8a53-3987-c810-66b349f49b19": {
+				"x": 559,
+				"y": 147.9
+			}
+		},
+		"walls": [
+			{
+				"corner1": "4e312eca-6c4f-30d1-3d9a-a19a9d1ee359",
+				"corner2": "254656bf-8a53-3987-c810-66b349f49b19",
+				"frontTexture": {
+					"url": "images/rooms/textures/wallmap.png",
+					"stretch": true,
+					"scale": 0
+				},
+				"backTexture": {
+					"url": "images/rooms/textures/wallmap.png",
+					"stretch": true,
+					"scale": null
+				}
+			},
+			{
+				"corner1": "254656bf-8a53-3987-c810-66b349f49b19",
+				"corner2": "56d9ebd1-91b2-875c-799d-54b3785fca1f",
+				"frontTexture": {
+					"url": "images/rooms/textures/wallmap.png",
+					"stretch": true,
+					"scale": 0
+				},
+				"backTexture": {
+					"url": "images/rooms/textures/wallmap.png",
+					"stretch": true,
+					"scale": null
+				}
+			},
+			{
+				"corner1": "56d9ebd1-91b2-875c-799d-54b3785fca1f",
+				"corner2": "8f4a050d-e102-3c3f-5af9-3d9133555d76",
+				"frontTexture": {
+					"url": "images/rooms/textures/wallmap.png",
+					"stretch": true,
+					"scale": 0
+				},
+				"backTexture": {
+					"url": "images/rooms/textures/wallmap.png",
+					"stretch": true,
+					"scale": null
+				}
+			},
+			{
+				"corner1": "8f4a050d-e102-3c3f-5af9-3d9133555d76",
+				"corner2": "4e312eca-6c4f-30d1-3d9a-a19a9d1ee359",
+				"frontTexture": {
+					"url": "images/rooms/textures/wallmap.png",
+					"stretch": true,
+					"scale": 0
+				},
+				"backTexture": {
+					"url": "images/rooms/textures/wallmap.png",
+					"stretch": true,
+					"scale": null
+				}
+			}
+		],
+		"wallTextures": [],
+		"floorTextures": {},
+		"newFloorTextures": {
+			"11d25193-4411-fbbf-78cb-ae7c0283164b,254656bf-8a53-3987-c810-66b349f49b19,e7db8654-efe1-bda2-099a-70585874d8c0,edf0de13-df9f-cd6a-7d11-9bd13c36ce12": {
+				"url": "images/rooms/textures/marbletiles.jpg",
+				"scale": 300
+			}
+		}
+	},
+	"items": [
+		{
+			"name": "Openings",
+			"items": [
+				{
+					"item_name": "Window B1",
+					"item_type": 3,
+					"model_url": "assets/models/165/whitewindow.js",
+					"xpos": 221.05,
+					"ypos": 173,
+					"zpos": -227.5,
+					"rotation": 0,
+					"scale_x": 0.65,
+					"scale_y": 0.62,
+					"scale_z": 1,
+					"fixed": false
+				},
+				{
+					"item_name": "Window B2",
+					"item_type": 3,
+					"model_url": "assets/models/165/whitewindow.js",
+					"xpos": 301.73,
+					"ypos": 173,
+					"zpos": -227.5,
+					"rotation": 0,
+					"scale_x": 0.65,
+					"scale_y": 0.62,
+					"scale_z": 1,
+					"fixed": false
+				},
+				{
+					"item_name": "Window L1",
+					"item_type": 3,
+					"model_url": "assets/models/165/whitewindow.js",
+					"xpos": 0.5,
+					"ypos": 149.37,
+					"zpos": 11,
+					"rotation": 0,
+					"scale_x": 1,
+					"scale_y": 0.9,
+					"scale_z": 1.03,
+					"fixed": false
+				},
+				{
+					"item_name": "Half Way",
+					"item_type": 3,
+					"model_url": "assets/models/open_door.js",
+					"xpos": 180,
+					"ypos": 160,
+					"zpos": 150,
+					"rotation": 3,
+					"scale_x": 3.5,
+					"scale_y": 0.5,
+					"scale_z": 1,
+					"fixed": false
+				}
+			]
+		},
+		{
+			"name": "Base Cabinets",
+			"items": [
+				{
+					"item_name": "B1",
+					"item_type": 8,
+					"model_url": "assets/models/cabinets/base-cabinet.js",
+					"image": "images/models/thumbnails/cabinets/B1.png",
+					"sku": "10452596771",
+					"price": "0.00",
+					"uom": "Each",
+					"xpos": 45.46,
+					"ypos": 35.1,
+					"zpos": -192.43,
+					"rotation": 0,
+					"scale_x": 1,
+					"scale_y": 1,
+					"scale_z": 1,
+					"fixed": false
+				},
+				{
+					"item_name": "B2",
+					"item_type": 8,
+					"model_url": "assets/models/cabinets/base-cabinet.js",
+					"image": "images/models/thumbnails/cabinets/B1.png",
+					"sku": "10452596771",
+					"price": "0.00",
+					"uom": "Each",
+					"xpos": 114.28,
+					"ypos": 35.1,
+					"zpos": -192.43,
+					"rotation": 0,
+					"scale_x": 1,
+					"scale_y": 1,
+					"scale_z": 1,
+					"fixed": false
+				},
+				{
+					"item_name": "B3",
+					"item_type": 8,
+					"model_url": "assets/models/cabinets/base-cabinet.js",
+					"image": "images/models/thumbnails/cabinets/B1.png",
+					"sku": "10452596771",
+					"price": "0.00",
+					"uom": "Each",
+					"xpos": 181.25,
+					"ypos": 35.1,
+					"zpos": -192.43,
+					"rotation": 0,
+					"scale_x": 1,
+					"scale_y": 1,
+					"scale_z": 1,
+					"fixed": false
+				},
+				{
+					"item_name": "B10",
+					"item_type": 8,
+					"model_url": "assets/models/cabinets/base-cabinet.js",
+					"image": "images/models/thumbnails/cabinets/B1.png",
+					"sku": "10452596771",
+					"price": "0.00",
+					"uom": "Each",
+					"xpos": 540,
+					"ypos": 35.1,
+					"zpos": -70,
+					"rotation": -1.57,
+					"scale_x": 1.4,
+					"scale_y": 1,
+					"scale_z": 1,
+					"fixed": false
+				},
+				{
+					"item_name": "B11",
+					"item_type": 8,
+					"model_url": "assets/models/cabinets/base-cabinet.js",
+					"image": "images/models/thumbnails/cabinets/B1.png",
+					"sku": "10452596771",
+					"price": "0.00",
+					"uom": "Each",
+					"xpos": 540,
+					"ypos": 35.1,
+					"zpos": 20,
+					"rotation": -1.57,
+					"scale_x": 1.26,
+					"scale_y": 1,
+					"scale_z": 1,
+					"fixed": false
+				},
+				{
+					"item_name": "B12",
+					"item_type": 8,
+					"model_url": "assets/models/cabinets/base-cabinet.js",
+					"image": "images/models/thumbnails/cabinets/B1.png",
+					"sku": "10452596771",
+					"price": "0.00",
+					"uom": "Each",
+					"xpos": 540,
+					"ypos": 35.1,
+					"zpos": 100,
+					"rotation": -1.57,
+					"scale_x": 1.25,
+					"scale_y": 1,
+					"scale_z": 1,
+					"fixed": false
+				},
+				{
+					"item_name": "B4",
+					"item_type": 2,
+					"model_url": "assets/models/cabinets/base-cabinet.js",
+					"image": "images/models/thumbnails/cabinets/B1.png",
+					"sku": "10452596771",
+					"price": "0.00",
+					"uom": "Each",
+					"xpos": 313.6,
+					"ypos": 35.1,
+					"zpos": -192.43,
+					"rotation": 0,
+					"scale_x": 1,
+					"scale_y": 1,
+					"scale_z": 1,
+					"fixed": false
+				},
+				{
+					"item_name": "B5",
+					"item_type": 8,
+					"model_url": "assets/models/cabinets/base-cabinet.js",
+					"image": "images/models/thumbnails/cabinets/B1.png",
+					"sku": "10452596771",
+					"price": "0.00",
+					"uom": "Each",
+					"xpos": 445.53,
+					"ypos": 35.1,
+					"zpos": -192.43,
+					"rotation": 0,
+					"scale_x": 1,
+					"scale_y": 1,
+					"scale_z": 1,
+					"fixed": false
+				},
+				{
+					"item_name": "B6",
+					"item_type": 8,
+					"model_url": "assets/models/cabinets/base-cabinet.js",
+					"image": "images/models/thumbnails/cabinets/B1.png",
+					"sku": "10452596771",
+					"price": "0.00",
+					"uom": "Each",
+					"xpos": 30.68,
+					"ypos": 35.1,
+					"zpos": 108.543,
+					"rotation": 1.57,
+					"scale_x": 1,
+					"scale_y": 1,
+					"scale_z": 1,
+					"fixed": false
+				},
+				{
+					"item_name": "B7",
+					"item_type": 8,
+					"model_url": "assets/models/cabinets/base-cabinet.js",
+					"image": "images/models/thumbnails/cabinets/B1.png",
+					"sku": "10452596771",
+					"price": "0.00",
+					"uom": "Each",
+					"xpos": 30.68,
+					"ypos": 35.1,
+					"zpos": 40.25,
+					"rotation": 1.57,
+					"scale_x": 1,
+					"scale_y": 1,
+					"scale_z": 1,
+					"fixed": false
+				},
+				{
+					"item_name": "B8",
+					"item_type": 8,
+					"model_url": "assets/models/cabinets/base-cabinet.js",
+					"image": "images/models/thumbnails/cabinets/B1.png",
+					"sku": "10452596771",
+					"price": "0.00",
+					"uom": "Each",
+					"xpos": 30.68,
+					"ypos": 35.1,
+					"zpos": -26.67,
+					"rotation": 1.57,
+					"scale_x": 1,
+					"scale_y": 1,
+					"scale_z": 1,
+					"fixed": false
+				},
+				{
+					"item_name": "B9",
+					"item_type": 8,
+					"model_url": "assets/models/cabinets/base-cabinet.js",
+					"image": "images/models/thumbnails/cabinets/B1.png",
+					"sku": "10452596771",
+					"price": "0.00",
+					"uom": "Each",
+					"xpos": 30.68,
+					"ypos": 35.1,
+					"zpos": -93.22,
+					"rotation": 1.57,
+					"scale_x": 1,
+					"scale_y": 1,
+					"scale_z": 1,
+					"fixed": false
+				}
+			]
+		},
+		{
+			"name": "Appliances",
+			"items": [
+				{
+					"item_name": "Stove Oven",
+					"item_type": 8,
+					"model_url": "assets/models/appliances/stove-oven.js",
+					"xpos": 247.52,
+					"ypos": 47.89,
+					"zpos": -192.43,
+					"rotation": 0,
+					"scale_x": 1,
+					"scale_y": 1,
+					"scale_z": 1,
+					"fixed": false
+				},
+				{
+					"item_name": "Sink",
+					"item_type": 2,
+					"model_url": "assets/models/appliances/sink.js",
+					"xpos": 313.6,
+					"ypos": 71,
+					"zpos": -192.43,
+					"rotation": 0,
+					"scale_x": 1.8,
+					"scale_y": 2,
+					"scale_z": 2,
+					"fixed": false
+				},
+				{
+					"item_name": "Dish Waher",
+					"item_type": 8,
+					"model_url": "assets/models/appliances/dish-washer.js",
+					"xpos": 380.42,
+					"ypos": 43.24,
+					"zpos": -192.43,
+					"rotation": 0,
+					"scale_x": 1,
+					"scale_y": 0.9,
+					"scale_z": 0.8,
+					"fixed": false
+				},
+				{
+					"item_name": "Refrigirator",
+					"item_type": 8,
+					"model_url": "assets/models/appliances/refrigerator.js",
+					"xpos": 514.31,
+					"ypos": 65.15,
+					"zpos": -192.43,
+					"rotation": 0,
+					"scale_x": 1,
+					"scale_y": 1,
+					"scale_z": 1,
+					"fixed": false
+				}
+			]
+		},
+		{
+			"name": "Wall Cabinets",
+			"items": [
+				{
+					"item_name": "w1",
+					"item_type": 2,
+					"model_url": "assets/models/cabinets/wall-cabinet.js",
+					"image": "images/models/thumbnails/cabinets/W.png",
+					"sku": "10452596771",
+					"price": "0.00",
+					"uom": "Each",
+					"xpos": 18.71,
+					"ypos": 188,
+					"zpos": 106.18,
+					"rotation": 2,
+					"scale_x": 1,
+					"scale_y": 1,
+					"scale_z": 1,
+					"fixed": false
+				},
+				{
+					"item_name": "W2",
+					"item_type": 2,
+					"model_url": "assets/models/cabinets/wall-cabinet.js",
+					"image": "images/models/thumbnails/cabinets/W.png",
+					"sku": "10452596771",
+					"price": "0.00",
+					"uom": "Each",
+					"xpos": 18.71,
+					"ypos": 188,
+					"zpos": -87.38,
+					"rotation": 2,
+					"scale_x": 1,
+					"scale_y": 1,
+					"scale_z": 1,
+					"fixed": false
+				},
+				{
+					"item_name": "W3",
+					"item_type": 2,
+					"model_url": "assets/models/cabinets/wall-cabinet.js",
+					"image": "images/models/thumbnails/cabinets/W.png",
+					"sku": "10452596771",
+					"price": "0.00",
+					"uom": "Each",
+					"xpos": 18.71,
+					"ypos": 188,
+					"zpos": -158.31,
+					"rotation": 2,
+					"scale_x": 1,
+					"scale_y": 1,
+					"scale_z": 1,
+					"fixed": false
+				},
+				{
+					"item_name": "W4",
+					"item_type": 2,
+					"model_url": "assets/models/cabinets/wall-cabinet.js",
+					"image": "images/models/thumbnails/cabinets/W.png",
+					"sku": "10452596771",
+					"price": "0.00",
+					"uom": "Each",
+					"xpos": 76.69,
+					"ypos": 188,
+					"zpos": -209.284,
+					"rotation": 2,
+					"scale_x": 1,
+					"scale_y": 1,
+					"scale_z": 1,
+					"fixed": false
+				},
+				{
+					"item_name": "W5",
+					"item_type": 2,
+					"model_url": "assets/models/cabinets/wall-cabinet.js",
+					"image": "images/models/thumbnails/cabinets/W.png",
+					"sku": "10452596771",
+					"price": "0.00",
+					"uom": "Each",
+					"xpos": 149.29,
+					"ypos": 188,
+					"zpos": -209.284,
+					"rotation": 2,
+					"scale_x": 1,
+					"scale_y": 1,
+					"scale_z": 1,
+					"fixed": false
+				},
+				{
+					"item_name": "W6",
+					"item_type": 2,
+					"model_url": "assets/models/cabinets/wall-cabinet.js",
+					"image": "images/models/thumbnails/cabinets/W.png",
+					"sku": "10452596771",
+					"price": "0.00",
+					"uom": "Each",
+					"xpos": 376.72,
+					"ypos": 188,
+					"zpos": -209.284,
+					"rotation": 2,
+					"scale_x": 1,
+					"scale_y": 1,
+					"scale_z": 1,
+					"fixed": false
+				},
+				{
+					"item_name": "W7",
+					"item_type": 2,
+					"model_url": "assets/models/cabinets/wall-cabinet.js",
+					"image": "images/models/thumbnails/cabinets/W.png",
+					"sku": "10452596771",
+					"price": "0.00",
+					"uom": "Each",
+					"xpos": 447.76,
+					"ypos": 188,
+					"zpos": -209.284,
+					"rotation": 2,
+					"scale_x": 1,
+					"scale_y": 1,
+					"scale_z": 1,
+					"fixed": false
+				},
+				{
+					"item_name": "W8",
+					"item_type": 2,
+					"model_url": "assets/models/cabinets/wall-cabinet.js",
+					"image": "images/models/thumbnails/cabinets/W.png",
+					"sku": "10452596771",
+					"price": "0.00",
+					"uom": "Each",
+					"xpos": 519.46,
+					"ypos": 188,
+					"zpos": -209.284,
+					"rotation": 2,
+					"scale_x": 1,
+					"scale_y": 1,
+					"scale_z": 1,
+					"fixed": false
+				},
+				{
+					"item_name": "W9",
+					"item_type": 2,
+					"model_url": "assets/models/cabinets/wall-cabinet.js",
+					"image": "images/models/thumbnails/cabinets/W.png",
+					"sku": "10452596771",
+					"price": "0.00",
+					"uom": "Each",
+					"xpos": 540,
+					"ypos": 188,
+					"zpos": -105,
+					"rotation": 2,
+					"scale_x": 1,
+					"scale_y": 1,
+					"scale_z": 1,
+					"fixed": false
+				},
+				{
+					"item_name": "W10",
+					"item_type": 2,
+					"model_url": "assets/models/cabinets/wall-cabinet.js",
+					"image": "images/models/thumbnails/cabinets/W.png",
+					"sku": "10452596771",
+					"price": "0.00",
+					"uom": "Each",
+					"xpos": 540,
+					"ypos": 188,
+					"zpos": -35,
+					"rotation": 2,
+					"scale_x": 1,
+					"scale_y": 1,
+					"scale_z": 1,
+					"fixed": false
+				},
+				{
+					"item_name": "W11",
+					"item_type": 2,
+					"model_url": "assets/models/cabinets/wall-cabinet.js",
+					"image": "images/models/thumbnails/cabinets/W.png",
+					"sku": "10452596771",
+					"price": "0.00",
+					"uom": "Each",
+					"xpos": 540,
+					"ypos": 188,
+					"zpos": 35,
+					"rotation": 2,
+					"scale_x": 1,
+					"scale_y": 1,
+					"scale_z": 1,
+					"fixed": false
+				},
+				{
+					"item_name": "W12",
+					"item_type": 2,
+					"model_url": "assets/models/cabinets/wall-cabinet.js",
+					"image": "images/models/thumbnails/cabinets/W.png",
+					"sku": "10452596771",
+					"price": "0.00",
+					"uom": "Each",
+					"xpos": 540,
+					"ypos": 188,
+					"zpos": 105,
+					"rotation": 2,
+					"scale_x": 1,
+					"scale_y": 1,
+					"scale_z": 1,
+					"fixed": false
+				}
+			]
+		}
+	]
+}
